@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Hugo\\Desktop\\coisas\\Projeto POO Fase 1 Hugo Monteiro (27993)\\Nova pasta\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\",
+  "WorkspaceRootPath": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3DAE3B8-86FF-417D-B906-4E7E9087DF3B}|Alojamentos\\Alojamentos.csproj|c:\\users\\hugo\\desktop\\coisas\\projeto poo fase 1 hugo monteiro (27993)\\nova pasta\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\alojamentos\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3DAE3B8-86FF-417D-B906-4E7E9087DF3B}|Alojamentos\\Alojamentos.csproj|c:\\users\\hugo\\desktop\\repositorio\\githugo\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\alojamentos\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3DAE3B8-86FF-417D-B906-4E7E9087DF3B}|Alojamentos\\Alojamentos.csproj|solutionrelative:alojamentos\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FED59AA9-BDDE-4E6D-9A8D-477A6C236282}|Main\\Main.csproj|C:\\Users\\Hugo\\Desktop\\coisas\\Projeto POO Fase 1 Hugo Monteiro (27993)\\Nova pasta\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FED59AA9-BDDE-4E6D-9A8D-477A6C236282}|Main\\Main.csproj|C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FED59AA9-BDDE-4E6D-9A8D-477A6C236282}|Main\\Main.csproj|solutionrelative:main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A19A10FF-A8DF-4E9B-A772-EF7F3AD9BEBB}|Check-in\\Check-in.csproj|C:\\Users\\Hugo\\Desktop\\coisas\\Projeto POO Fase 1 Hugo Monteiro (27993)\\Nova pasta\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\check-in\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A19A10FF-A8DF-4E9B-A772-EF7F3AD9BEBB}|Check-in\\Check-in.csproj|C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\check-in\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A19A10FF-A8DF-4E9B-A772-EF7F3AD9BEBB}|Check-in\\Check-in.csproj|solutionrelative:check-in\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\coisas\\Projeto POO Fase 1 Hugo Monteiro (27993)\\Nova pasta\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\Alojamentos\\Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\Alojamentos\\Class1.cs",
               "RelativeDocumentMoniker": "Alojamentos\\Class1.cs",
-              "ToolTip": "C:\\Users\\Hugo\\Desktop\\coisas\\Projeto POO Fase 1 Hugo Monteiro (27993)\\Nova pasta\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\Alojamentos\\Class1.cs",
+              "ToolTip": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\Alojamentos\\Class1.cs",
               "RelativeToolTip": "Alojamentos\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T14:01:51.527Z",
               "EditorCaption": ""
@@ -41,9 +41,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\coisas\\Projeto POO Fase 1 Hugo Monteiro (27993)\\Nova pasta\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\Main\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\Main\\Program.cs",
               "RelativeDocumentMoniker": "Main\\Program.cs",
-              "ToolTip": "C:\\Users\\Hugo\\Desktop\\coisas\\Projeto POO Fase 1 Hugo Monteiro (27993)\\Nova pasta\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\Main\\Program.cs",
+              "ToolTip": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\Main\\Program.cs",
               "RelativeToolTip": "Main\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -53,9 +53,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\coisas\\Projeto POO Fase 1 Hugo Monteiro (27993)\\Nova pasta\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\Check-in\\Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\Check-in\\Class1.cs",
               "RelativeDocumentMoniker": "Check-in\\Class1.cs",
-              "ToolTip": "C:\\Users\\Hugo\\Desktop\\coisas\\Projeto POO Fase 1 Hugo Monteiro (27993)\\Nova pasta\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\Check-in\\Class1.cs",
+              "ToolTip": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\Check-in\\Class1.cs",
               "RelativeToolTip": "Check-in\\Class1.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAmwCUAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
