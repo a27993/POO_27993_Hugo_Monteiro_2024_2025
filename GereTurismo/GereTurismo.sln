@@ -7,13 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "Main\Main.csproj", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLL", "DLL", "{84B7F0F3-8CDB-4DEF-89F8-790B0A27F736}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clientes", "Clientes\Clientes.csproj", "{D2385E93-DF48-43CF-BBF1-B1D22B68DA27}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clientes", "DLL\Clientes\Clientes.csproj", "{D2385E93-DF48-43CF-BBF1-B1D22B68DA27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alojamentos", "Alojamentos\Alojamentos.csproj", "{C3DAE3B8-86FF-417D-B906-4E7E9087DF3B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alojamentos", "DLL\Alojamentos\Alojamentos.csproj", "{C3DAE3B8-86FF-417D-B906-4E7E9087DF3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Check-in", "Check-in\Check-in.csproj", "{A19A10FF-A8DF-4E9B-A772-EF7F3AD9BEBB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Check-in", "DLL\Check-in\Check-in.csproj", "{A19A10FF-A8DF-4E9B-A772-EF7F3AD9BEBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservas", "Reservas\Reservas.csproj", "{7021BB79-B684-4768-9070-8BF0B1AA5955}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservas", "DLL\Reservas\Reservas.csproj", "{7021BB79-B684-4768-9070-8BF0B1AA5955}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
