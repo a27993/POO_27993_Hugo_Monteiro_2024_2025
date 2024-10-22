@@ -13,6 +13,7 @@ namespace ObjetosNegocio
         private int idAlojamento;
         private DateTime dataInicio;
         private DateTime dataFim;
+		private int idReserva;
 		#endregion
 
 		#region Public
@@ -39,6 +40,12 @@ namespace ObjetosNegocio
 			get { return this.dataFim; }
 			set {  this.dataFim = value; }
 		}
+
+		public int IdReserva
+		{
+			get { return this.idReserva; }
+			set { this.idReserva = value; }
+		}
 		#endregion
 
 		#region Constructors
@@ -48,13 +55,15 @@ namespace ObjetosNegocio
 			this.idAlojamento = 0;
 			this.dataInicio = new DateTime();
 			this.dataFim = new DateTime();
+			this.idReserva = 0;
 		}
-		public Reserva(int idCliente,int idAlojamento,DateTime dataInicio,DateTime dataFim)
+		public Reserva(int idCliente,int idAlojamento,DateTime dataInicio,DateTime dataFim,int idReserva)
 		{
 			this.idCliente = idCliente;
 			this.idAlojamento = idAlojamento;
 			this.dataInicio = dataInicio;
 			this.dataFim = dataFim;
+			this.idReserva = idReserva;
 		}
 		#endregion
 

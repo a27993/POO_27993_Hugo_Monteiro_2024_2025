@@ -8,3 +8,9 @@ C:\Users\Hugo\Desktop\coisas\Projeto POO Fase 1 Hugo Monteiro (27993)\POO_27993_
 C:\Users\Hugo\Desktop\coisas\Projeto POO Fase 1 Hugo Monteiro (27993)\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\ObjetosNegocio\bin\Debug\ObjetosNegocio.pdb
 C:\Users\Hugo\Desktop\coisas\Projeto POO Fase 1 Hugo Monteiro (27993)\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\ObjetosNegocio\obj\Debug\ObjetosNegocio.dll
 C:\Users\Hugo\Desktop\coisas\Projeto POO Fase 1 Hugo Monteiro (27993)\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\ObjetosNegocio\obj\Debug\ObjetosNegocio.pdb
+C:\Users\Hugo\Desktop\repositorio\githugo\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\ObjetosNegocio\bin\Debug\ObjetosNegocio.dll
+C:\Users\Hugo\Desktop\repositorio\githugo\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\ObjetosNegocio\bin\Debug\ObjetosNegocio.pdb
+C:\Users\Hugo\Desktop\repositorio\githugo\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\ObjetosNegocio\obj\Debug\ObjetosNegocio.csproj.AssemblyReference.cache
+C:\Users\Hugo\Desktop\repositorio\githugo\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\ObjetosNegocio\obj\Debug\ObjetosNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Hugo\Desktop\repositorio\githugo\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\ObjetosNegocio\obj\Debug\ObjetosNegocio.dll
+C:\Users\Hugo\Desktop\repositorio\githugo\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\ObjetosNegocio\obj\Debug\ObjetosNegocio.pdb
