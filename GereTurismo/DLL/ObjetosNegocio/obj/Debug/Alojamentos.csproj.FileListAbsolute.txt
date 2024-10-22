@@ -1,0 +1,6 @@
+C:\Users\Hugo\Desktop\coisas\Projeto POO Fase 1 Hugo Monteiro (27993)\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Alojamentos\bin\Debug\Alojamentos.dll
+C:\Users\Hugo\Desktop\coisas\Projeto POO Fase 1 Hugo Monteiro (27993)\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Alojamentos\bin\Debug\Alojamentos.pdb
+C:\Users\Hugo\Desktop\coisas\Projeto POO Fase 1 Hugo Monteiro (27993)\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Alojamentos\obj\Debug\Alojamentos.csproj.AssemblyReference.cache
+C:\Users\Hugo\Desktop\coisas\Projeto POO Fase 1 Hugo Monteiro (27993)\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Alojamentos\obj\Debug\Alojamentos.csproj.CoreCompileInputs.cache
+C:\Users\Hugo\Desktop\coisas\Projeto POO Fase 1 Hugo Monteiro (27993)\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Alojamentos\obj\Debug\Alojamentos.dll
+C:\Users\Hugo\Desktop\coisas\Projeto POO Fase 1 Hugo Monteiro (27993)\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Alojamentos\obj\Debug\Alojamentos.pdb

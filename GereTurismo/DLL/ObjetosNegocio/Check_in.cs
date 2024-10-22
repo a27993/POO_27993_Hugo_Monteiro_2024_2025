@@ -1,9 +1,9 @@
 ﻿//-----------------------------------------------------------------
-//    <copyright file="Main.cs" company="IPCA">
+//    <copyright file="Check-in.cs" company="IPCA">
 //     Copyright IPCA-EST. All rights reserved.
 //    </copyright>
-//    <date>20-10-2024</date>
-//    <time>19:00</time>
+//    <date>21-10-2024</date>
+//    <time>15:00</time>
 //    <version>0.1</version>
 //    <author>Hugo Monteiro</author>
 //-----------------------------------------------------------------
@@ -12,15 +12,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ObjetosNegocio;
 
-namespace Main
+namespace ObjetosNegocio
 {
-	public class Program
-	{
-		static void Main(string[] args)
-		{
-
-		}
+    public class Check_in : Registo
+    {
+		
 	}
 }

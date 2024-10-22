@@ -1,18 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\",
+  "WorkspaceRootPath": "C:\\Users\\Hugo\\Desktop\\coisas\\Projeto POO Fase 1 Hugo Monteiro (27993)\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FED59AA9-BDDE-4E6D-9A8D-477A6C236282}|Main\\Main.csproj|C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FED59AA9-BDDE-4E6D-9A8D-477A6C236282}|Main\\Main.csproj|c:\\users\\hugo\\desktop\\coisas\\projeto poo fase 1 hugo monteiro (27993)\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FED59AA9-BDDE-4E6D-9A8D-477A6C236282}|Main\\Main.csproj|solutionrelative:main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\Alojamentos\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Alojamentos\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\Check-in\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Check-in\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3DAE3B8-86FF-417D-B906-4E7E9087DF3B}|DLL\\ObjetosNegocio\\ObjetosNegocio.csproj|c:\\users\\hugo\\desktop\\coisas\\projeto poo fase 1 hugo monteiro (27993)\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\objetosnegocio\\alojamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3DAE3B8-86FF-417D-B906-4E7E9087DF3B}|DLL\\ObjetosNegocio\\ObjetosNegocio.csproj|solutionrelative:dll\\objetosnegocio\\alojamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\Alojamentos\\Class1.cs",
-              "RelativeDocumentMoniker": "Alojamentos\\Class1.cs",
-              "ToolTip": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\Alojamentos\\Class1.cs",
-              "RelativeToolTip": "Alojamentos\\Class1.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T14:01:51.527Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\Main\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\coisas\\Projeto POO Fase 1 Hugo Monteiro (27993)\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\Main\\Program.cs",
               "RelativeDocumentMoniker": "Main\\Program.cs",
-              "ToolTip": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\Main\\Program.cs",
+              "ToolTip": "C:\\Users\\Hugo\\Desktop\\coisas\\Projeto POO Fase 1 Hugo Monteiro (27993)\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\Main\\Program.cs",
               "RelativeToolTip": "Main\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T13:58:32.171Z",
+              "WhenOpened": "2024-10-22T00:43:28.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\Check-in\\Class1.cs",
-              "RelativeDocumentMoniker": "Check-in\\Class1.cs",
-              "ToolTip": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\Check-in\\Class1.cs",
-              "RelativeToolTip": "Check-in\\Class1.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAmwCUAAAACAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Alojamento.cs",
+              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\coisas\\Projeto POO Fase 1 Hugo Monteiro (27993)\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\ObjetosNegocio\\Alojamento.cs",
+              "RelativeDocumentMoniker": "DLL\\ObjetosNegocio\\Alojamento.cs",
+              "ToolTip": "C:\\Users\\Hugo\\Desktop\\coisas\\Projeto POO Fase 1 Hugo Monteiro (27993)\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\ObjetosNegocio\\Alojamento.cs",
+              "RelativeToolTip": "DLL\\ObjetosNegocio\\Alojamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T13:54:06.995Z"
+              "WhenOpened": "2024-10-22T00:41:23.209Z",
+              "EditorCaption": ""
             }
           ]
         }
