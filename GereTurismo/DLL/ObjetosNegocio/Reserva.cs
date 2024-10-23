@@ -73,10 +73,10 @@ namespace ObjetosNegocio
 		 */
 		public double calcularPrecoTotal(double precoPorNoite)
 		{
-			//	int diaInicial = Convert.ToInt32(this.dataInicio);
-			//	int diaFinal = Convert.ToInt32(this.dataFim);
+			//	double diaInicial = Convert.ToInt32(this.dataInicio);
+			//	double diaFinal = Convert.ToInt32(this.dataFim);
 
-			//	int diferencaDias = diaFinal - diaInicial;
+			//	double diferencaDias = diaFinal - diaInicial;
 			//	double precoTotal = (double)(precoPorNoite - diferencaDias);
 
 			TimeSpan diferencaDias = this.dataFim - this.dataInicio;

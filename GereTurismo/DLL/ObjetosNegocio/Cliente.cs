@@ -80,6 +80,13 @@ namespace ObjetosNegocio
 			this.id = id; 
 
 		}
-		#endregion
-	}
+        #endregion
+
+        #region Methods
+		/**
+		 * Criar cliente
+		 * Remover cliente
+		 */
+        #endregion
+    }
 }

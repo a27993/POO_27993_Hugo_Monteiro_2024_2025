@@ -8,5 +8,8 @@ namespace ObjetosNegocio
 {
     public class Consulta
     {
+        /**
+         * Casas disponiveis
+         */
     }
 }
