@@ -8,6 +8,9 @@ namespace ObjetosNegocio
 {
     public class Check_out : Registo
     {
-		
+		/**
+		 * Cria formulario de satisfacao 
+		 * Pagamento
+		 */
 	}
 }

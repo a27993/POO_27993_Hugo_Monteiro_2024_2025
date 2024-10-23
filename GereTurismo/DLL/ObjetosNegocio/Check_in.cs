@@ -17,6 +17,8 @@ namespace ObjetosNegocio
 {
     public class Check_in : Registo
     {
-		
+		/**
+		 * Confirmacao de dados a entrada do alojamento
+		 */
 	}
 }
