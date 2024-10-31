@@ -1,28 +1,63 @@
-﻿//-----------------------------------------------------------------
-//    <copyright file="Cliente.cs" company="IPCA">
-//     Copyright IPCA-EST. All rights reserved.
-//    </copyright>
-//    <date>20-10-2024</date>
-//    <time>19:00</time>
-//    <version>0.1</version>
-//    <author>Hugo Monteiro</author>
-//-----------------------------------------------------------------
+﻿/*
+*	<copyright file="ObjetosNegocio" company="IPCA">
+*		Copyright (c) 2024 All Rights Reserved
+*	</copyright>
+* 	<author>Hugo</author>
+*   <date>10/26/2024 8:59:35 PM</date>
+*	<description></description>
+*/
+
+
 using System;
+using System.Collections.Generic;
 
 namespace ObjetosNegocio
 {
+	/// <summary>
+	/// Purpose: 
+	/// Created by: Hugo
+	/// Created on: 10/26/2024 8:59:35 PM
+	/// </summary>
+	/// <remarks></remarks>
+	/// <example></example>
 	public class Cliente
 	{
-		#region Private
+		#region Attributes
 		private string nome;
 		private string cc;
 		private string email;
 		private string telemovel;
 		private string nif;
 		private int id;
+		static List<Cliente> cliente = new List<Cliente>();
 		#endregion
 
-		#region Public
+		#region Methods
+
+		#region Constructors
+		public Cliente()
+		{
+			this.nome = "";
+			this.email = "";
+			this.cc = "";
+			this.nif = "";
+			this.telemovel = "";
+			this.id = 0;
+		}
+
+		public Cliente(string nome, string cc, string nif, string email, string telemovel, int id)
+		{
+			this.nome = nome;
+			this.cc = cc;
+			this.telemovel = telemovel;
+			this.nif = nif;
+			this.email = email;
+			this.id = id;
+
+		}
+		#endregion
+
+		#region Properties
 		public int Id
 		{
 			get { return this.id; }
@@ -59,34 +94,40 @@ namespace ObjetosNegocio
 		}
 		#endregion
 
-		#region Constructors
-		public Cliente()
-		{
-			this.nome = "";
-			this.email = "";
-			this.cc = "";
-			this.nif = "";
-			this.telemovel = "";
-			this.id = 0;
-		}
-		
-		public Cliente(string nome, string cc,string nif,string email,string telemovel,int id)
-		{
-			this.nome = nome;
-			this.cc = cc;
-			this.telemovel = telemovel;
-			this.nif = nif;
-			this.email = email;
-			this.id = id; 
+		#region Operators
+		#endregion
 
-		}
-        #endregion
+		#region Overrides
+		#endregion
 
-        #region Methods
+		#region OtherMethods
 		/**
-		 * Criar cliente
-		 * Remover cliente
+		 * Create client
+		 * Remove client
 		 */
-        #endregion
-    }
+		public static int CriarCliente(string nome,string cc,string email,string telemovel,string nif,int id)
+		{
+			Cliente criarCliente = new Cliente(nome,cc,email,telemovel,nif,id);
+			cliente.Add(criarCliente);
+			return 1;
+		}
+
+		public static int RemoverCliente(int id)
+		{
+			Cliente removeCliente = cliente.Find(x => x.Id == id); //Search if the client id exists
+
+			if(removeCliente != null) //if exists remove, return 1 as successfull
+			{
+				cliente.Remove(removeCliente);
+				return 1;
+			}
+			else return 0;
+		}
+		#endregion
+
+		#region Destructor
+		#endregion
+
+		#endregion
+	}
 }

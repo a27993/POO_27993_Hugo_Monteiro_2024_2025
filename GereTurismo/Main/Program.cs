@@ -20,7 +20,7 @@ namespace Main
 	{
 		static void Main(string[] args)
 		{
-
+			
 		}
 	}
 }

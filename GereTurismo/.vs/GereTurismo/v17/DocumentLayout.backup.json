@@ -1,22 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\",
+  "WorkspaceRootPath": "C:\\Users\\Hugo\\Desktop\\coisas\\Projeto POO Fase 1 Hugo Monteiro (27993)\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3DAE3B8-86FF-417D-B906-4E7E9087DF3B}|DLL\\ObjetosNegocio\\ObjetosNegocio.csproj|c:\\users\\hugo\\desktop\\repositorio\\githugo\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\objetosnegocio\\alojamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3DAE3B8-86FF-417D-B906-4E7E9087DF3B}|DLL\\ObjetosNegocio\\ObjetosNegocio.csproj|solutionrelative:dll\\objetosnegocio\\alojamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3DAE3B8-86FF-417D-B906-4E7E9087DF3B}|DLL\\ObjetosNegocio\\ObjetosNegocio.csproj|c:\\users\\hugo\\desktop\\repositorio\\githugo\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\objetosnegocio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3DAE3B8-86FF-417D-B906-4E7E9087DF3B}|DLL\\ObjetosNegocio\\ObjetosNegocio.csproj|c:\\users\\hugo\\desktop\\coisas\\projeto poo fase 1 hugo monteiro (27993)\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\objetosnegocio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3DAE3B8-86FF-417D-B906-4E7E9087DF3B}|DLL\\ObjetosNegocio\\ObjetosNegocio.csproj|solutionrelative:dll\\objetosnegocio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3DAE3B8-86FF-417D-B906-4E7E9087DF3B}|DLL\\ObjetosNegocio\\ObjetosNegocio.csproj|c:\\users\\hugo\\desktop\\repositorio\\githugo\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\objetosnegocio\\registo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3DAE3B8-86FF-417D-B906-4E7E9087DF3B}|DLL\\ObjetosNegocio\\ObjetosNegocio.csproj|solutionrelative:dll\\objetosnegocio\\registo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3DAE3B8-86FF-417D-B906-4E7E9087DF3B}|DLL\\ObjetosNegocio\\ObjetosNegocio.csproj|C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\dll\\objetosnegocio\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3DAE3B8-86FF-417D-B906-4E7E9087DF3B}|DLL\\ObjetosNegocio\\ObjetosNegocio.csproj|solutionrelative:dll\\objetosnegocio\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FED59AA9-BDDE-4E6D-9A8D-477A6C236282}|Main\\Main.csproj|c:\\users\\hugo\\desktop\\coisas\\projeto poo fase 1 hugo monteiro (27993)\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FED59AA9-BDDE-4E6D-9A8D-477A6C236282}|Main\\Main.csproj|solutionrelative:main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Alojamento.cs",
-              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\ObjetosNegocio\\Alojamento.cs",
-              "RelativeDocumentMoniker": "DLL\\ObjetosNegocio\\Alojamento.cs",
-              "ToolTip": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\ObjetosNegocio\\Alojamento.cs",
-              "RelativeToolTip": "DLL\\ObjetosNegocio\\Alojamento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T17:33:49.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\coisas\\Projeto POO Fase 1 Hugo Monteiro (27993)\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\Main\\Program.cs",
+              "RelativeDocumentMoniker": "Main\\Program.cs",
+              "ToolTip": "C:\\Users\\Hugo\\Desktop\\coisas\\Projeto POO Fase 1 Hugo Monteiro (27993)\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\Main\\Program.cs*",
+              "RelativeToolTip": "Main\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T23:32:16.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\ObjetosNegocio\\Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\coisas\\Projeto POO Fase 1 Hugo Monteiro (27993)\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\ObjetosNegocio\\Cliente.cs",
               "RelativeDocumentMoniker": "DLL\\ObjetosNegocio\\Cliente.cs",
-              "ToolTip": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\ObjetosNegocio\\Cliente.cs",
-              "RelativeToolTip": "DLL\\ObjetosNegocio\\Cliente.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAFcAAAAUAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Hugo\\Desktop\\coisas\\Projeto POO Fase 1 Hugo Monteiro (27993)\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\ObjetosNegocio\\Cliente.cs*",
+              "RelativeToolTip": "DLL\\ObjetosNegocio\\Cliente.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T17:17:12.077Z",
+              "WhenOpened": "2024-10-28T23:31:48.618Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Registo.cs",
-              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\ObjetosNegocio\\Registo.cs",
-              "RelativeDocumentMoniker": "DLL\\ObjetosNegocio\\Registo.cs",
-              "ToolTip": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\ObjetosNegocio\\Registo.cs",
-              "RelativeToolTip": "DLL\\ObjetosNegocio\\Registo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T17:12:32.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Reserva.cs",
-              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\ObjetosNegocio\\Reserva.cs",
-              "RelativeDocumentMoniker": "DLL\\ObjetosNegocio\\Reserva.cs",
-              "ToolTip": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\ObjetosNegocio\\Reserva.cs",
-              "RelativeToolTip": "DLL\\ObjetosNegocio\\Reserva.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T09:17:16.836Z"
             }
           ]
         }

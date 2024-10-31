@@ -44,8 +44,8 @@
     <Compile Include="Alojamento.cs" />
     <Compile Include="Check_in.cs" />
     <Compile Include="Check_out.cs" />
-    <Compile Include="Consulta.cs" />
     <Compile Include="Cliente.cs" />
+    <Compile Include="Consoluta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registo.cs" />
     <Compile Include="Reserva.cs" />

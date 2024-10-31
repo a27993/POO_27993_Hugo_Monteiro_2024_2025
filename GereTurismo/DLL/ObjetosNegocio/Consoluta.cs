@@ -3,7 +3,7 @@
 *		Copyright (c) 2024 All Rights Reserved
 *	</copyright>
 * 	<author>Hugo</author>
-*   <date>10/26/2024 9:17:10 PM</date>
+*   <date>10/26/2024 9:19:38 PM</date>
 *	<description></description>
 */
 
@@ -15,11 +15,11 @@ namespace ObjetosNegocio
 	/// <summary>
 	/// Purpose: 
 	/// Created by: Hugo
-	/// Created on: 10/26/2024 9:17:10 PM
+	/// Created on: 10/26/2024 9:19:38 PM
 	/// </summary>
 	/// <remarks></remarks>
 	/// <example></example>
-	public class Check_in : Registo
+	public class Consoluta : Alojamento
 	{
 		#region Attributes
 		#endregion
@@ -40,8 +40,8 @@ namespace ObjetosNegocio
 
 		#region OtherMethods
 		/**
-		 * Confirmacao de dados a entrada do alojamento
-		 */
+		* Casas disponiveis
+		*/
 		#endregion
 
 		#region Destructor
