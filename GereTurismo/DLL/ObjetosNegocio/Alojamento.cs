@@ -103,7 +103,7 @@ namespace ObjetosNegocio
 			Console.WriteLine($"{id}, {localizacao}, {precoPorNoite}, {capacidade}");
 		}
 
-		public static void mostraTodosAlojamento()
+		public void mostraTodosAlojamento()
 		{
 			foreach (var alojamento in alojamentos)
 			{

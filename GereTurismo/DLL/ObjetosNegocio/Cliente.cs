@@ -29,7 +29,7 @@ namespace ObjetosNegocio
 		private string telemovel;
 		private string nif;
 		private int id;
-		static List<Cliente> cliente = new List<Cliente>();
+		static List<Cliente> clientes = new List<Cliente>();
 		#endregion
 
 		#region Methods
@@ -108,20 +108,33 @@ namespace ObjetosNegocio
 		public static int CriarCliente(string nome,string cc,string email,string telemovel,string nif,int id)
 		{
 			Cliente criarCliente = new Cliente(nome,cc,email,telemovel,nif,id);
-			cliente.Add(criarCliente);
+			clientes.Add(criarCliente);
 			return 1;
 		}
 
 		public static int RemoverCliente(int id)
 		{
-			Cliente removeCliente = cliente.Find(x => x.Id == id); //Search if the client id exists
+			Cliente removeCliente = clientes.Find(x => x.Id == id); //Search if the client id exists
 
 			if(removeCliente != null) //if exists remove, return 1 as successfull
 			{
-				cliente.Remove(removeCliente);
+				clientes.Remove(removeCliente);
 				return 1;
 			}
 			else return 0;
+		}
+
+		public void mostrarCliente()
+		{
+            Console.WriteLine($"{nome},{cc},{email},{telemovel},{nif},{id}");
+		}
+
+		public void mostrarTodosClientes()
+		{
+			foreach(var cliente in clientes)
+			{
+				cliente.mostrarCliente();
+			}
 		}
 		#endregion
 

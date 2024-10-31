@@ -40,8 +40,9 @@ namespace ObjetosNegocio
 
 		#region OtherMethods
 		/**
-		 * Confirmacao de dados a entrada do alojamento
-		 */
+		* Confirmacao de dados a entrada do alojamento
+		*/
+
 		#endregion
 
 		#region Destructor
