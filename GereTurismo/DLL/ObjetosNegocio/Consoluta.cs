@@ -13,13 +13,13 @@ using System;
 namespace ObjetosNegocio
 {
 	/// <summary>
-	/// Purpose: 
+	/// Purpose: query class
 	/// Created by: Hugo
 	/// Created on: 10/26/2024 9:19:38 PM
 	/// </summary>
 	/// <remarks></remarks>
 	/// <example></example>
-	public class Consoluta : Alojamento
+	public class Consoluta
 	{
 		#region Attributes
 		#endregion
@@ -39,9 +39,14 @@ namespace ObjetosNegocio
 		#endregion
 
 		#region OtherMethods
-		/**
-		* Casas disponiveis
-		*/
+		/// <summary>
+		/// Displays all available accommodations in the console.
+		/// Calls the static method mostraTodosAlojamento from the Alojamento class to show details of all accommodations.
+		/// </summary>
+		public void mostrarAlojamentosDisponiveis()
+		{
+			Alojamento.mostraTodosAlojamento();
+		}
 		#endregion
 
 		#region Destructor
