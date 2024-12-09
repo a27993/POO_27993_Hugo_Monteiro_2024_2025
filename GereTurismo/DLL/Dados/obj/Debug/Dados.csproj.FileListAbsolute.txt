@@ -1,0 +1,9 @@
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Dados\bin\Debug\Dados.dll
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Dados\bin\Debug\Dados.pdb
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Dados\obj\Debug\Dados.csproj.AssemblyReference.cache
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Dados\obj\Debug\Dados.csproj.CoreCompileInputs.cache
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Dados\obj\Debug\Dados.dll
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Dados\obj\Debug\Dados.pdb
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Dados\bin\Debug\ObjetosNegocio.dll
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Dados\bin\Debug\ObjetosNegocio.pdb
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Dados\obj\Debug\Dados.csproj.Up2Date

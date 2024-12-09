@@ -14,3 +14,15 @@ C:\Users\Hugo\Desktop\repositorio\githugo\POO_27993_Hugo_Monteiro_2024_2025\Gere
 C:\Users\Hugo\Desktop\repositorio\githugo\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\ObjetosNegocio\obj\Debug\ObjetosNegocio.csproj.CoreCompileInputs.cache
 C:\Users\Hugo\Desktop\repositorio\githugo\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\ObjetosNegocio\obj\Debug\ObjetosNegocio.dll
 C:\Users\Hugo\Desktop\repositorio\githugo\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\ObjetosNegocio\obj\Debug\ObjetosNegocio.pdb
+C:\Users\Hugo\Desktop\Repositorio\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\ObjetosNegocio\bin\Debug\ObjetosNegocio.dll
+C:\Users\Hugo\Desktop\Repositorio\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\ObjetosNegocio\bin\Debug\ObjetosNegocio.pdb
+C:\Users\Hugo\Desktop\Repositorio\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\ObjetosNegocio\obj\Debug\ObjetosNegocio.csproj.AssemblyReference.cache
+C:\Users\Hugo\Desktop\Repositorio\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\ObjetosNegocio\obj\Debug\ObjetosNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Hugo\Desktop\Repositorio\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\ObjetosNegocio\obj\Debug\ObjetosNegocio.dll
+C:\Users\Hugo\Desktop\Repositorio\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\ObjetosNegocio\obj\Debug\ObjetosNegocio.pdb
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\ObjetosNegocio\obj\Debug\ObjetosNegocio.csproj.AssemblyReference.cache
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\ObjetosNegocio\obj\Debug\ObjetosNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\ObjetosNegocio\obj\Debug\ObjetosNegocio.dll
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\ObjetosNegocio\obj\Debug\ObjetosNegocio.pdb
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\ObjetosNegocio\bin\Debug\ObjetosNegocio.dll
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\ObjetosNegocio\bin\Debug\ObjetosNegocio.pdb

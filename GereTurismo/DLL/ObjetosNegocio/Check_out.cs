@@ -46,7 +46,7 @@ namespace ObjetosNegocio
 		/// <param name="idCliente">The ID of the client associated with the check-out.</param>
 		/// <param name="idAlojamento">The ID of the accommodation associated with the check-out.</param>
 		/// <param name="pagamento">The payment status of the check-out (true if paid, false otherwise).</param>
-		public Check_out(DateTime data, int idCliente, int idAlojamento, bool pagamento) : base(data, idCliente, idAlojamento)
+		public Check_out(DateTime data, int idCliente, int idAlojamento, bool pagamento, int idRegisto) : base(data, idCliente, idAlojamento, idRegisto)
 		{
 			this.pagamento = pagamento;
 		}
@@ -67,6 +67,10 @@ namespace ObjetosNegocio
 		#endregion
 
 		#region Overrides
+		public override void exibirRegisto()
+		{
+			Console.WriteLine($"{IdRegisto},Data Check-out: {Data},{IdAlojamento},{IdCliente}");
+		}
 		#endregion
 
 		#region OtherMethods

@@ -10,6 +10,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Data;
 
 namespace ObjetosNegocio
 {
@@ -28,23 +29,12 @@ namespace ObjetosNegocio
 		private DateTime dataInicio;
 		private DateTime dataFim;
 		private int idReserva;
-		private static List<Reserva> reservas;
-		private static int totalId;
+		private static int totalId = 0;
 		#endregion
 
 		#region Methods
 
 		#region Constructors
-		/// <summary>
-		/// Static constructor for the Reserva class.
-		/// Initializes the list of reservations and sets the initial total ID count to zero.
-		/// </summary>
-		static Reserva()
-		{
-			reservas = new List<Reserva>();
-			totalId = 0;
-		}
-
 		/// <summary>
 		/// Default constructor for the Reserva class.
 		/// Initializes a reservation with default values of zero for client and accommodation IDs, 
@@ -82,14 +72,6 @@ namespace ObjetosNegocio
 		#endregion
 
 		#region Properties
-		/// <summary>
-		/// Static property for accessing the list of all reservation instances.
-		/// </summary>
-		public static List<Reserva> Reservas
-		{
-			get { return reservas; }
-		}
-
 		/// <summary>
 		/// Property for accessing and setting the ID of the client associated with the reservation.
 		/// </summary>
@@ -142,6 +124,7 @@ namespace ObjetosNegocio
 		{ 
 			get { return totalId; }
 		}
+
 		#endregion
 
 		#region Operators
@@ -151,6 +134,11 @@ namespace ObjetosNegocio
 		#endregion
 
 		#region OtherMethods
+		public void mostrarReserva()
+		{
+			Console.WriteLine($"{idCliente},{idAlojamento},{dataInicio},{dataFim},{idReserva}");
+		}
+
 		/// <summary>
 		/// Calculates the total price of a stay based on the price per night and the number of days between the start and end dates.
 		/// </summary>
@@ -158,7 +146,7 @@ namespace ObjetosNegocio
 		/// <returns>Returns the total price of the stay.</returns>
 		public double calcularPrecoTotal(double precoPorNoite)
 		{
-			TimeSpan diferencaDias = this.dataFim - this.dataInicio;
+			TimeSpan diferencaDias = dataFim - dataInicio;
 
 			double precoTotal = diferencaDias.TotalDays * precoPorNoite;
 

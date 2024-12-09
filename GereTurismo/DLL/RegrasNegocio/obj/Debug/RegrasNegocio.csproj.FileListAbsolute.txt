@@ -1,0 +1,11 @@
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\RegrasNegocio\bin\Debug\RegrasNegocio.dll
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\RegrasNegocio\bin\Debug\RegrasNegocio.pdb
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\RegrasNegocio\obj\Debug\RegrasNegocio.csproj.AssemblyReference.cache
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\RegrasNegocio\obj\Debug\RegrasNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\RegrasNegocio\obj\Debug\RegrasNegocio.dll
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\RegrasNegocio\obj\Debug\RegrasNegocio.pdb
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\RegrasNegocio\bin\Debug\Dados.dll
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\RegrasNegocio\bin\Debug\ObjetosNegocio.dll
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\RegrasNegocio\bin\Debug\Dados.pdb
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\RegrasNegocio\bin\Debug\ObjetosNegocio.pdb
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\RegrasNegocio\obj\Debug\RegrasNe.BCBC36E9.Up2Date

@@ -20,12 +20,14 @@ namespace ObjetosNegocio
 	/// </summary>
 	/// <remarks></remarks>
 	/// <example></example>
-	public class Registo
+	public abstract class Registo
 	{
 		#region Attributes
 		private DateTime data;
 		private int idAlojamento;
 		private int idCliente;
+		private int idRegisto;
+		private static int totalId = 1;
 		#endregion
 
 		#region Methods
@@ -40,6 +42,8 @@ namespace ObjetosNegocio
 			this.data = DateTime.Now;
 			this.idAlojamento = 0;
 			this.idCliente = 0;
+			this.idRegisto = totalId;
+			totalId++;
 		}
 
 		/// <summary>
@@ -49,15 +53,28 @@ namespace ObjetosNegocio
 		/// <param name="data">The date of the registration.</param>
 		/// <param name="idAlojamento">The ID of the associated accommodation.</param>
 		/// <param name="idCliente">The ID of the associated client.</param>
-		public Registo(DateTime data, int idAlojamento, int idCliente)
+		public Registo(DateTime data, int idAlojamento, int idCliente, int idRegisto)
 		{
 			this.data = data;
 			this.idAlojamento = idAlojamento;
 			this.idCliente = idCliente;
+			this.idRegisto = totalId;
+			totalId++;
 		}
 		#endregion
 
 		#region Properties
+		public int IdRegisto
+		{
+			get { return this.idRegisto; }
+			set { this.idRegisto = value; }
+		}
+
+		public static int TotalId
+		{
+			get { return totalId; }
+		}
+
 		/// <summary>
 		/// Property for accessing and setting the date of the registration.
 		/// </summary>
@@ -93,6 +110,7 @@ namespace ObjetosNegocio
 		#endregion
 
 		#region OtherMethods
+		public abstract void exibirRegisto();
 		#endregion
 
 		#region Destructor
