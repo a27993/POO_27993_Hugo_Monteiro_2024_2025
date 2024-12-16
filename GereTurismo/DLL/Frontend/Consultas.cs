@@ -42,9 +42,9 @@ namespace Frontend
 		#endregion
 
 		#region OtherMethods
-		public static void mostrarTodosAlojamentos()
+		public static List<Alojamento> mostrarTodosAlojamentos()
 		{
-			RegrasAlojamentos.mostraTodosAlojamento();
+			return RegrasAlojamentos.mostraTodosAlojamento();
 		}
 
 		public static List<Utilizador> mostrarTodosUtilizadores()

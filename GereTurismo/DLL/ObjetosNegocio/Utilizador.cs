@@ -21,7 +21,7 @@ namespace ObjetosNegocio
 	/// </summary>
 	/// <remarks></remarks>
 	/// <example></example>
-	public class Utilizador
+	public class Utilizador : IUtilizador
 	{
 		#region Attributes
 		private string nome;

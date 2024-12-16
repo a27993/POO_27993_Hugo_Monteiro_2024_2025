@@ -16,3 +16,10 @@ C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Frontend
 C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Frontend\bin\Debug\Dados.pdb
 C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Frontend\obj\Debug\Frontend.Menu.resources
 C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Frontend\obj\Debug\Frontend.CriarContaCliente.resources
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Frontend\obj\Debug\Frontend.MenuCliente.resources
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Frontend\obj\Debug\Frontend.ReservaCliente.resources
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Frontend\obj\Debug\Frontend.CriarReservaCliente.resources
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Frontend\obj\Debug\Frontend.CriarAlojamentoFuncionario.resources
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Frontend\obj\Debug\Frontend.CriarContaFuncionario.resources
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Frontend\obj\Debug\Frontend.MenuFuncionario.resources
+C:\Users\Hugo\Desktop\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Frontend\obj\Debug\Frontend.ReservasFuncionario.resources

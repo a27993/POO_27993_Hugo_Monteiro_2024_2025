@@ -34,6 +34,7 @@
 			this.login = new System.Windows.Forms.Button();
 			this.password = new System.Windows.Forms.Label();
 			this.passwordTextBox = new System.Windows.Forms.TextBox();
+			this.ExitButton = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// criarConta
@@ -92,11 +93,22 @@
 			this.passwordTextBox.TabIndex = 5;
 			this.passwordTextBox.TextChanged += new System.EventHandler(this.passwordTextBox_TextChanged);
 			// 
+			// ExitButton
+			// 
+			this.ExitButton.Location = new System.Drawing.Point(687, 399);
+			this.ExitButton.Name = "ExitButton";
+			this.ExitButton.Size = new System.Drawing.Size(75, 23);
+			this.ExitButton.TabIndex = 6;
+			this.ExitButton.Text = "Exit";
+			this.ExitButton.UseVisualStyleBackColor = true;
+			this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
+			// 
 			// Menu
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.Controls.Add(this.ExitButton);
 			this.Controls.Add(this.passwordTextBox);
 			this.Controls.Add(this.password);
 			this.Controls.Add(this.login);
@@ -119,5 +131,6 @@
 		private System.Windows.Forms.Button login;
 		private System.Windows.Forms.Label password;
 		private System.Windows.Forms.TextBox passwordTextBox;
+		private System.Windows.Forms.Button ExitButton;
 	}
 }

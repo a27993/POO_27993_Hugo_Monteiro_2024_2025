@@ -21,7 +21,7 @@ namespace ObjetosNegocio
 	/// </summary>
 	/// <remarks></remarks>
 	/// <example></example>
-	public class Reserva
+	public class Reserva : IReserva
 	{
 		#region Attributes
 		private int idCliente;
@@ -29,7 +29,7 @@ namespace ObjetosNegocio
 		private DateTime dataInicio;
 		private DateTime dataFim;
 		private int idReserva;
-		private static int totalId = 0;
+		private static int totalId = 1;
 		#endregion
 
 		#region Methods

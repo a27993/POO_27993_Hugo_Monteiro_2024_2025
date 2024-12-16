@@ -9,7 +9,9 @@
 
 
 using System;
+using System.Collections.Generic;
 using Dados;
+using ObjetosNegocio;
 
 namespace RegrasNegocio
 {
@@ -67,9 +69,9 @@ namespace RegrasNegocio
 			return Alojamentos.alterarAlojamento(novoPrecoPorNoite, id);
 		}
 
-		public static void mostraTodosAlojamento()
+		public static List<Alojamento> mostraTodosAlojamento()
 		{
-			Alojamentos.mostraTodosAlojamento();
+			return Alojamentos.A;
 		}
 		#endregion
 

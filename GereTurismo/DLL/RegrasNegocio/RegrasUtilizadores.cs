@@ -92,9 +92,9 @@ namespace RegrasNegocio
 			return Utilizadores.Logout();
 		}
 
-		public static int RemoverUtilizador(int? id)
+		public static int RemoverUtilizador(int id)
 		{
-			if (id == null)
+			if (id <= 0)
 			{
 				return -1;
 			}

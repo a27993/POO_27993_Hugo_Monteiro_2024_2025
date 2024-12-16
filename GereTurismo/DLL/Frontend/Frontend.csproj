@@ -65,11 +65,29 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Consultas.cs" />
+    <Compile Include="CriarAlojamentoFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CriarAlojamentoFuncionario.Designer.cs">
+      <DependentUpon>CriarAlojamentoFuncionario.cs</DependentUpon>
+    </Compile>
     <Compile Include="CriarContaCliente.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CriarContaCliente.Designer.cs">
       <DependentUpon>CriarContaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CriarContaFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CriarContaFuncionario.Designer.cs">
+      <DependentUpon>CriarContaFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CriarReservaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CriarReservaCliente.Designer.cs">
+      <DependentUpon>CriarReservaCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
@@ -77,12 +95,51 @@
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuCliente.Designer.cs">
+      <DependentUpon>MenuCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuFuncionario.Designer.cs">
+      <DependentUpon>MenuFuncionario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReservaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReservaCliente.Designer.cs">
+      <DependentUpon>ReservaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReservasFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReservasFuncionario.Designer.cs">
+      <DependentUpon>ReservasFuncionario.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CriarAlojamentoFuncionario.resx">
+      <DependentUpon>CriarAlojamentoFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CriarContaCliente.resx">
       <DependentUpon>CriarContaCliente.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CriarContaFuncionario.resx">
+      <DependentUpon>CriarContaFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CriarReservaCliente.resx">
+      <DependentUpon>CriarReservaCliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuCliente.resx">
+      <DependentUpon>MenuCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuFuncionario.resx">
+      <DependentUpon>MenuFuncionario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -93,6 +150,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ReservaCliente.resx">
+      <DependentUpon>ReservaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReservasFuncionario.resx">
+      <DependentUpon>ReservasFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

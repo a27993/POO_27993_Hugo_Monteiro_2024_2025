@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Hugo\\Desktop\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|c:\\users\\hugo\\desktop\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\frontend\\criarcontacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|solutionrelative:dll\\frontend\\criarcontacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|c:\\users\\hugo\\desktop\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\frontend\\criaralojamentofuncionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|solutionrelative:dll\\frontend\\criaralojamentofuncionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|c:\\users\\hugo\\desktop\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\frontend\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|solutionrelative:dll\\frontend\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{414DA084-5637-42FB-98F0-33992D9C2405}|DLL\\RegrasNegocio\\RegrasNegocio.csproj|c:\\users\\hugo\\desktop\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\regrasnegocio\\regrasalojamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{414DA084-5637-42FB-98F0-33992D9C2405}|DLL\\RegrasNegocio\\RegrasNegocio.csproj|solutionrelative:dll\\regrasnegocio\\regrasalojamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|c:\\users\\hugo\\desktop\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\frontend\\criarcontacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|solutionrelative:dll\\frontend\\criarcontacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|c:\\users\\hugo\\desktop\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\frontend\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|solutionrelative:dll\\frontend\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|c:\\users\\hugo\\desktop\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\frontend\\criaralojamentofuncionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|solutionrelative:dll\\frontend\\criaralojamentofuncionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\Menu.cs",
-              "RelativeDocumentMoniker": "DLL\\Frontend\\Menu.cs",
-              "ToolTip": "C:\\Users\\Hugo\\Desktop\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\Menu.cs",
-              "RelativeToolTip": "DLL\\Frontend\\Menu.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAArwBcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CriarAlojamentoFuncionario.cs",
+              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\CriarAlojamentoFuncionario.cs",
+              "RelativeDocumentMoniker": "DLL\\Frontend\\CriarAlojamentoFuncionario.cs",
+              "ToolTip": "C:\\Users\\Hugo\\Desktop\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\CriarAlojamentoFuncionario.cs",
+              "RelativeToolTip": "DLL\\Frontend\\CriarAlojamentoFuncionario.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAhwBYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T01:57:39.28Z",
+              "WhenOpened": "2024-12-16T00:50:18.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Menu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\Menu.cs",
-              "RelativeDocumentMoniker": "DLL\\Frontend\\Menu.cs",
-              "ToolTip": "C:\\Users\\Hugo\\Desktop\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\Menu.cs [Design]",
-              "RelativeToolTip": "DLL\\Frontend\\Menu.cs [Design]",
+              "Title": "RegrasAlojamentos.cs",
+              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\RegrasNegocio\\RegrasAlojamentos.cs",
+              "RelativeDocumentMoniker": "DLL\\RegrasNegocio\\RegrasAlojamentos.cs",
+              "ToolTip": "C:\\Users\\Hugo\\Desktop\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\RegrasNegocio\\RegrasAlojamentos.cs",
+              "RelativeToolTip": "DLL\\RegrasNegocio\\RegrasAlojamentos.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T01:57:30.824Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CriarContaCliente.cs",
-              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\CriarContaCliente.cs",
-              "RelativeDocumentMoniker": "DLL\\Frontend\\CriarContaCliente.cs",
-              "ToolTip": "C:\\Users\\Hugo\\Desktop\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\CriarContaCliente.cs",
-              "RelativeToolTip": "DLL\\Frontend\\CriarContaCliente.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAgwCwAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T01:52:40.981Z",
+              "WhenOpened": "2024-12-16T00:46:55.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CriarContaCliente.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\CriarContaCliente.cs",
-              "RelativeDocumentMoniker": "DLL\\Frontend\\CriarContaCliente.cs",
-              "ToolTip": "C:\\Users\\Hugo\\Desktop\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\CriarContaCliente.cs [Design]",
-              "RelativeToolTip": "DLL\\Frontend\\CriarContaCliente.cs [Design]",
+              "Title": "CriarAlojamentoFuncionario.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\CriarAlojamentoFuncionario.cs",
+              "RelativeDocumentMoniker": "DLL\\Frontend\\CriarAlojamentoFuncionario.cs",
+              "ToolTip": "C:\\Users\\Hugo\\Desktop\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\CriarAlojamentoFuncionario.cs [Design]",
+              "RelativeToolTip": "DLL\\Frontend\\CriarAlojamentoFuncionario.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T01:48:32.761Z",
+              "WhenOpened": "2024-12-16T00:46:50.612Z",
               "EditorCaption": " [Design]"
             }
           ]

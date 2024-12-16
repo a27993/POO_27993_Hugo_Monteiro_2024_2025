@@ -66,7 +66,7 @@ namespace Dados
 			{
 				return -1;
 			}
-			Utilizador cliente = new Utilizador(nome, cc, email, telemovel, nif, 0, password);
+			Utilizador cliente = new Utilizador(nome, cc, nif, email, telemovel, 0, password);
 			u.Add(cliente);
 			return 1;
 		}
@@ -126,7 +126,7 @@ namespace Dados
 		/// </summary>
 		/// <param name="id">The ID of the user to be removed.</param>
 		/// <returns>Returns 1 if the user is removed successfully; returns 0 if the ID is not found.</returns>
-		public static int RemoverUtilizador(int? id)
+		public static int RemoverUtilizador(int id)
 		{
 			Utilizador removeUtilizador = u.Find(x => x.Id == id); //Search if the user id exists
 			if (removeUtilizador != null) //if exists remove, return 1 as successfull

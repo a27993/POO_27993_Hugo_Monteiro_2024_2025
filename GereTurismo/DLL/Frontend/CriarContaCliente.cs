@@ -22,27 +22,16 @@ namespace Frontend
 
 		private void criarContaButton_Click(object sender, EventArgs e)
 		{
-			if (RegrasUtilizadores.criarCliente(nomeText.Text, ccText.Text, emailText.Text, telemovelText.Text, nifText.Text, passwordText.Text) == -1)
-			{
-				MessageBox.Show("Email ja registado");
-			}
-			else if (RegrasUtilizadores.criarCliente(nomeText.Text, ccText.Text, emailText.Text, telemovelText.Text, nifText.Text, passwordText.Text) == -2)
+			int verificacao = RegrasUtilizadores.criarCliente(nomeText.Text, ccText.Text, emailText.Text, telemovelText.Text, nifText.Text, passwordText.Text);
+			if ( verificacao == -2)
 			{
 				MessageBox.Show("Dados invalidos");
 			}
+			else if (verificacao == -1)
+			{
+				MessageBox.Show("Email ja registado");
+			}
 			else MessageBox.Show("Sucesso");
-			List<Utilizador> u = Consultas.mostrarTodosUtilizadores();
-			if (u == null)
-			{
-				MessageBox.Show("Sem utilizadores");
-			}
-			else
-			{
-				foreach(var utilizador in u)
-				{
-					MessageBox.Show($"{utilizador.Nome},{utilizador.Email}");
-				}
-			}
 			this.Close();
 		}
 	}

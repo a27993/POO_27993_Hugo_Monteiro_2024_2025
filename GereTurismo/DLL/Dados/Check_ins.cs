@@ -58,16 +58,16 @@ namespace Dados
 		/// </summary>
 		/// <param name="idReserva">The ID of the reservation to be confirmed.</param>
 		/// <returns>Returns 1 if the reservation exists and the client ID matches; returns 0 otherwise.</returns>
-		//public int confirmaDados(int idReserva)
-		//{
-		//	Reserva? reserva = Reservas.R.Find(x => x.IdReserva == idReserva);
-		//	if (reserva != null) //if exists
-		//	{
-		//		if (this.IdCliente == reserva.IdCliente) return 1;
-		//		else return 0;
-		//	}
-		//	else return 0;
-		//}
+		public static int confirmaDados(int idReserva, int idCliente)
+		{
+			Reserva reserva = Reservas.R.Find(x => x.IdReserva == idReserva);
+			if (reserva != null) //if exists
+			{
+				if (reserva.IdCliente == idCliente) return 1;
+				else return -1;
+			}
+			else return -2;
+		}
 
 		public static int criarCheckIn(DateTime data, int idCliente, int idAlojamento, int idRegisto)
 		{

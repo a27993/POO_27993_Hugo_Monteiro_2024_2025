@@ -9,6 +9,7 @@
 
 
 using Dados;
+using ObjetosNegocio;
 using System;
 using System.Runtime.InteropServices.WindowsRuntime;
 
@@ -41,6 +42,15 @@ namespace RegrasNegocio
 		#endregion
 
 		#region OtherMethods
+		public static int confirmaDados(int idReserva, int idCliente)
+		{
+			if (idReserva <= 0 ||  idCliente <= 0)
+			{
+				return -3;
+			}
+			return Check_ins.confirmaDados(idReserva, idCliente);
+		}
+
 		public static int criarCheckIn(DateTime data, int idCliente, int idAlojamento, int idRegisto)
 		{
 			if (data == null || idRegisto <= 0 || idCliente <= 0 || idAlojamento <= 0)

@@ -21,7 +21,7 @@ namespace ObjetosNegocio
 	/// </summary>
 	/// <remarks></remarks>
 	/// <example></example>
-	public class Alojamento
+	public class Alojamento : IAlojamento
 	{
 		#region Attributes
 		private int id;
