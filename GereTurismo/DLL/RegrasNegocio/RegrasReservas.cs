@@ -49,8 +49,6 @@ namespace RegrasNegocio
 			return Reservas.criaReserva(idCliente, idAlojamento, dataInicio, dataFim);
 		}
 
-		
-
 		public static int removeReserva(int idReserva)
 		{
 			if (idReserva <= 0)

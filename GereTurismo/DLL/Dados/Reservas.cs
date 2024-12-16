@@ -58,7 +58,7 @@ namespace Dados
 
 		#region OtherMethods
 		public static int criaReserva(int idCliente, int idAlojamento, DateTime dataInicio, DateTime dataFim)
-		{
+		{ 
 			Reserva reserva = new Reserva(idCliente, idAlojamento, dataInicio, dataFim);
 			r.Add(reserva);
 			return 1;

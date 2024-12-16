@@ -20,7 +20,13 @@ namespace Frontend
 
 		private void CriarAlojamentoButton_Click(object sender, EventArgs e)
 		{
-			//int verificacao = RegrasAlojamentos.criarAlojamento(LocalizacaoTextBox.Text, PrecoPorNoiteTextBox.txt, CapacidadeTextBox.Text);
+			int verificacao = RegrasAlojamentos.criarAlojamento(LocalizacaoTextBox.Text, double.Parse(PrecoPorNoiteTextBox.Text), int.Parse(CapacidadeTextBox.Text));
+			if (verificacao == -1)
+			{
+				MessageBox.Show("Dados invalidos");
+			}
+			else MessageBox.Show("Sucesso");
+			this.Close();
 		}
 	}
 }

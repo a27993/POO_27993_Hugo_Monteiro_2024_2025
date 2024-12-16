@@ -108,6 +108,12 @@
       <DependentUpon>MenuFuncionario.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemoverReservasFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoverReservasFuncionario.Designer.cs">
+      <DependentUpon>RemoverReservasFuncionario.cs</DependentUpon>
+    </Compile>
     <Compile Include="ReservaCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -150,6 +156,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RemoverReservasFuncionario.resx">
+      <DependentUpon>RemoverReservasFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ReservaCliente.resx">
       <DependentUpon>ReservaCliente.cs</DependentUpon>
     </EmbeddedResource>

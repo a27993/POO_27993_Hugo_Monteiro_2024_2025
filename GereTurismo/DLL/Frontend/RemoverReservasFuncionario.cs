@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RegrasNegocio;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,22 +11,21 @@ using System.Windows.Forms;
 
 namespace Frontend
 {
-	public partial class ReservasFuncionario : Form
+	public partial class RemoverReservasFuncionario : Form
 	{
-		public ReservasFuncionario()
+		public RemoverReservasFuncionario()
 		{
 			InitializeComponent();
 		}
 
-		private void Exit_Click(object sender, EventArgs e)
+		private void button3_Click(object sender, EventArgs e)
 		{
 			this.Close();
 		}
 
-		private void CriarReservaButton_Click(object sender, EventArgs e)
+		private void RemoverTodasReservasButton_Click(object sender, EventArgs e)
 		{
-			CriarReservaCliente criarReservaCliente = new CriarReservaCliente();
-			criarReservaCliente.Show();
+			RegrasReservas.removeTodasReservas();
 		}
 
 		private void RemoverReservaButton_Click(object sender, EventArgs e)
