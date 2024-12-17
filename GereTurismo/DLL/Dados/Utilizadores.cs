@@ -11,6 +11,7 @@
 using ObjetosNegocio;
 using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace Dados
 {
@@ -41,7 +42,7 @@ namespace Dados
 		#region Properties
 		public static int? TipoLogado
 		{
-			get { return idLogado; }
+			get { return tipoLogado; }
 		}
 		public static int? IdLogado
 		{
@@ -140,6 +141,40 @@ namespace Dados
 		{
 			u.Clear();
 			return 1;
+		}
+
+		public static bool CarregaUtilizadoresParaLista(string filePath)
+		{
+			// Lê todas as linhas do ficheiro
+			string[] linhas = File.ReadAllLines(filePath);
+
+			// Para cada linha no ficheiro, processa o conteúdo
+			foreach (string linha in linhas)
+			{
+				// Divide a linha em partes
+				string[] partes = linha.Split(';');
+
+				// Verifica se há exatamente 7 partes
+				if (partes.Length == 7)
+				{
+					string nome = partes[0];
+					string cc = partes[1];
+					string nif = partes[2];
+					string email = partes[3];
+					string telemovel = partes[4];
+					int tipo = int.Parse(partes[5]);
+					string password = partes[6];
+
+					// Cria o objeto utilizador e adiciona-o à lista de utilizadores
+					Utilizador utilizador = new Utilizador(nome, cc, nif, email, telemovel, tipo, password);
+					u.Add(utilizador);
+				}
+				else
+				{
+					throw new Exception("Formato da linha inválido.");
+				}
+			}
+			return true;
 		}
 		#endregion
 

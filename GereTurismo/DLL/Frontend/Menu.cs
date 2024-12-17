@@ -16,6 +16,8 @@ namespace Frontend
 	{
 		public Menu()
 		{
+			string filePath = @"C:\Users\Hugo\Desktop\repositorio\githugo\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\Utilizadores.txt";
+			RegrasUtilizadores.CarregaUtilizadoresParaLista(filePath);
 			InitializeComponent();
 		}
 
@@ -62,8 +64,18 @@ namespace Frontend
 			}
 			else
 			{
-				MenuCliente menuCliente = new MenuCliente();
-				menuCliente.Show();
+				int tipoLogado = RegrasUtilizadores.ObterTipoLogado();
+				MessageBox.Show(tipoLogado.ToString());
+				if (tipoLogado == 1)
+				{
+					MenuFuncionario menuFuncionario = new MenuFuncionario();
+					menuFuncionario.Show();
+				}
+				else if (tipoLogado == 0)
+				{
+					MenuCliente menuCliente = new MenuCliente();
+					menuCliente.Show();
+				}
 			}
 		}
 
@@ -74,6 +86,7 @@ namespace Frontend
 
 		private void ExitButton_Click(object sender, EventArgs e)
 		{
+			
 			this.Close();
 		}
 	}

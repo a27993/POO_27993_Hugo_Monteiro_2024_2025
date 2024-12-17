@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Hugo\\Desktop\\Repositorio\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\",
+  "WorkspaceRootPath": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|c:\\users\\hugo\\desktop\\repositorio\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\frontend\\criarcontacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|solutionrelative:dll\\frontend\\criarcontacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|c:\\users\\hugo\\desktop\\repositorio\\githugo\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\frontend\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|solutionrelative:dll\\frontend\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|c:\\users\\hugo\\desktop\\repositorio\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\frontend\\criarcontacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|solutionrelative:dll\\frontend\\criarcontacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9FAD4BDA-1F43-40C2-BBCA-451E487EFEC1}|DLL\\Dados\\Dados.csproj|c:\\users\\hugo\\desktop\\repositorio\\githugo\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\dados\\utilizadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FAD4BDA-1F43-40C2-BBCA-451E487EFEC1}|DLL\\Dados\\Dados.csproj|solutionrelative:dll\\dados\\utilizadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414DA084-5637-42FB-98F0-33992D9C2405}|DLL\\RegrasNegocio\\RegrasNegocio.csproj|c:\\users\\hugo\\desktop\\repositorio\\githugo\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\regrasnegocio\\regrasutilizadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{414DA084-5637-42FB-98F0-33992D9C2405}|DLL\\RegrasNegocio\\RegrasNegocio.csproj|solutionrelative:dll\\regrasnegocio\\regrasutilizadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3DAE3B8-86FF-417D-B906-4E7E9087DF3B}|DLL\\ObjetosNegocio\\ObjetosNegocio.csproj|c:\\users\\hugo\\desktop\\repositorio\\githugo\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\objetosnegocio\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3DAE3B8-86FF-417D-B906-4E7E9087DF3B}|DLL\\ObjetosNegocio\\ObjetosNegocio.csproj|solutionrelative:dll\\objetosnegocio\\utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CriarContaCliente.cs",
-              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\Repositorio\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\CriarContaCliente.cs",
-              "RelativeDocumentMoniker": "DLL\\Frontend\\CriarContaCliente.cs",
-              "ToolTip": "C:\\Users\\Hugo\\Desktop\\Repositorio\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\CriarContaCliente.cs",
-              "RelativeToolTip": "DLL\\Frontend\\CriarContaCliente.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBgAAAADAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Utilizadores.cs",
+              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Dados\\Utilizadores.cs",
+              "RelativeDocumentMoniker": "DLL\\Dados\\Utilizadores.cs",
+              "ToolTip": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Dados\\Utilizadores.cs",
+              "RelativeToolTip": "DLL\\Dados\\Utilizadores.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAIAxwCcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T19:14:22.157Z",
+              "WhenOpened": "2024-12-17T03:02:42.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CriarContaCliente.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\Repositorio\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\CriarContaCliente.cs",
-              "RelativeDocumentMoniker": "DLL\\Frontend\\CriarContaCliente.cs",
-              "ToolTip": "C:\\Users\\Hugo\\Desktop\\Repositorio\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\CriarContaCliente.cs [Design]",
-              "RelativeToolTip": "DLL\\Frontend\\CriarContaCliente.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "Utilizador.cs",
+              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\ObjetosNegocio\\Utilizador.cs",
+              "RelativeDocumentMoniker": "DLL\\ObjetosNegocio\\Utilizador.cs",
+              "ToolTip": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\ObjetosNegocio\\Utilizador.cs",
+              "RelativeToolTip": "DLL\\ObjetosNegocio\\Utilizador.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwKAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T19:14:19.012Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-17T03:04:38.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\Menu.cs",
+              "RelativeDocumentMoniker": "DLL\\Frontend\\Menu.cs",
+              "ToolTip": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\Menu.cs",
+              "RelativeToolTip": "DLL\\Frontend\\Menu.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAmwEQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T02:25:29.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegrasUtilizadores.cs",
+              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\RegrasNegocio\\RegrasUtilizadores.cs",
+              "RelativeDocumentMoniker": "DLL\\RegrasNegocio\\RegrasUtilizadores.cs",
+              "ToolTip": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\RegrasNegocio\\RegrasUtilizadores.cs",
+              "RelativeToolTip": "DLL\\RegrasNegocio\\RegrasUtilizadores.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAASwE0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T02:42:01.132Z",
+              "EditorCaption": ""
             }
           ]
         }

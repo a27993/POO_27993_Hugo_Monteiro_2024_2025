@@ -10,6 +10,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.IO;
 using Dados;
 using ObjetosNegocio;
 
@@ -70,6 +71,18 @@ namespace RegrasNegocio
 			return Utilizadores.Login(email, password);
 		}
 
+		public static int ObterTipoLogado()
+		{
+			if(Utilizadores.TipoLogado == null) return -1;
+			return (int)Utilizadores.TipoLogado;
+		}
+
+		public static int ObterIdLogado()
+		{
+			if (Utilizadores.IdLogado == null) return -1;
+			return (int)Utilizadores.IdLogado;
+		}
+
 		public static int AlterarPassword(string passwordAntiga, string passwordNova)
 		{
 			if (Utilizadores.IdLogado == null) //Se nao houver utilizadores logados
@@ -115,6 +128,15 @@ namespace RegrasNegocio
 			return Utilizadores.U;
 		}
 
+		public static bool CarregaUtilizadoresParaLista(string filePath)
+		{
+			filePath = @"C:\Users\Hugo\Desktop\repositorio\githugo\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\Utilizadores.txt";
+			if (!File.Exists(filePath))
+			{
+				return false;
+			}
+			return Utilizadores.CarregaUtilizadoresParaLista(filePath);
+		}
 		#endregion
 
 		#region Destructor

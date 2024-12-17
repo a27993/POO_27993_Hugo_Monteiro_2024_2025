@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RegrasNegocio;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,21 @@ namespace Frontend
 		public CriarContaFuncionario()
 		{
 			InitializeComponent();
+		}
+
+		private void criarContaButton_Click(object sender, EventArgs e)
+		{
+			int verificacao = RegrasUtilizadores.criarFuncionario(nomeText.Text, ccText.Text, emailText.Text, telemovelText.Text, nifText.Text, passwordText.Text);
+			if (verificacao == -2)
+			{
+				MessageBox.Show("Dados invalidos");
+			}
+			else if (verificacao == -1)
+			{
+				MessageBox.Show("Email ja registado");
+			}
+			else MessageBox.Show("Sucesso");
+			this.Close();
 		}
 	}
 }
