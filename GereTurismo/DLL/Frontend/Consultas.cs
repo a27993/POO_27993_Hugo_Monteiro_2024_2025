@@ -52,19 +52,19 @@ namespace Frontend
 			return RegrasUtilizadores.mostrarTodosUtilizadores();
 		}
 
-		public static void mostrarTodosCheck_ins()
+		public static List<Check_in> mostrarTodosCheck_ins()
 		{
-			RegrasCheck_Ins.mostrarTodosCheckIns();
+			return RegrasCheck_Ins.mostrarTodosCheckIns();
 		}
 
-		public static void mostrarTodosCheck_outs()
+		public static List<Check_out> mostrarTodosCheck_outs()
 		{
-			RegrasCheck_outs.mostrarTodosCheckOuts();
+			return RegrasCheck_outs.mostrarTodosCheckOuts();
 		}
 
-		public static void mostrarTodasReservas()
+		public static List<Reserva> mostrarTodasReservas()
 		{
-			RegrasReservas.mostrarTodasReserva();
+			return RegrasReservas.mostrarTodasReserva();
 		}
 		#endregion
 

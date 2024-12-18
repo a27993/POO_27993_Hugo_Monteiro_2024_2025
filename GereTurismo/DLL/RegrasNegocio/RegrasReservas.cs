@@ -9,6 +9,7 @@
 
 
 using System;
+using System.Collections.Generic;
 using System.IO;
 using Dados;
 using ObjetosNegocio;
@@ -83,9 +84,18 @@ namespace RegrasNegocio
 			return Reservas.encontrarReserva(idReserva);
 		}
 
-		public static void mostrarTodasReserva()
+		public static List<Reserva> encontrarReservasUtilizador(int idCliente)
 		{
-			Reservas.mostrarTodasReserva();
+			if(idCliente <= 0)
+			{
+				return null;
+			}
+			return Reservas.encontrarReservasUtilizador(idCliente);
+		}
+
+		public static List<Reserva> mostrarTodasReserva()
+		{
+			return Reservas.R;
 		}
 
 		public static bool CarregaReservasParaLista(string filePath)

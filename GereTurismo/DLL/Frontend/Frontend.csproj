@@ -64,7 +64,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CheckOutCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckOutCliente.Designer.cs">
+      <DependentUpon>CheckOutCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmarDadosCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfirmarDadosCliente.Designer.cs">
+      <DependentUpon>ConfirmarDadosCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaCliente.Designer.cs">
+      <DependentUpon>ConsultaCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Consultas.cs" />
+    <Compile Include="ConsultasFuncionarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultasFuncionarios.Designer.cs">
+      <DependentUpon>ConsultasFuncionarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="CriarAlojamentoFuncionario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,6 +156,18 @@
     <Compile Include="ReservasFuncionario.Designer.cs">
       <DependentUpon>ReservasFuncionario.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CheckOutCliente.resx">
+      <DependentUpon>CheckOutCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfirmarDadosCliente.resx">
+      <DependentUpon>ConfirmarDadosCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaCliente.resx">
+      <DependentUpon>ConsultaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultasFuncionarios.resx">
+      <DependentUpon>ConsultasFuncionarios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CriarAlojamentoFuncionario.resx">
       <DependentUpon>CriarAlojamentoFuncionario.cs</DependentUpon>
     </EmbeddedResource>

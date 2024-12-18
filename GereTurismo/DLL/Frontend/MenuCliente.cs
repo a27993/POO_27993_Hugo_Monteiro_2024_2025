@@ -21,13 +21,18 @@ namespace Frontend
 
 		private void ConsultaAlojamentosButton_Click(object sender, EventArgs e)
 		{
-			Consultas.mostrarTodosAlojamentos();
+			ConsultaCliente consultaCliente = new ConsultaCliente();
+			this.Hide();
+			consultaCliente.ShowDialog();
+			this.Show();
 		}
 
 		private void ReservaClienteButton_Click(object sender, EventArgs e)
 		{
 			ReservaCliente reservaCliente = new ReservaCliente();
-			reservaCliente.Show();
+			this.Hide();
+			reservaCliente.ShowDialog();
+			this.Show();
 		}
 
 		private void LogoutButton_Click(object sender, EventArgs e)

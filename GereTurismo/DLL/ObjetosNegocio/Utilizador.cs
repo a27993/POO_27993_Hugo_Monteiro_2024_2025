@@ -33,6 +33,9 @@ namespace ObjetosNegocio
 		private int tipo;
 		private int id;	
 		private static int totalId = 1;
+
+
+		public string Display => $"Id:{Id} - Nome:{Nome} - CC:{CC} - Email:{Email} - Telemovel:{Telemovel} - Nif:{Nif} - Password:{Password} - Tipo:{Tipo}";
 		#endregion
 
 		#region Methods

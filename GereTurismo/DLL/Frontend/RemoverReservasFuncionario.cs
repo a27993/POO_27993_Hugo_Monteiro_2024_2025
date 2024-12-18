@@ -31,7 +31,9 @@ namespace Frontend
 		private void RemoverReservaButton_Click(object sender, EventArgs e)
 		{
 			RemoverReservaSingularFuncionario removerReservaSigularFuncionario = new RemoverReservaSingularFuncionario();
-			removerReservaSigularFuncionario.Show();
+			this.Hide();
+			removerReservaSigularFuncionario.ShowDialog();
+			this.Show();
 		}
 	}
 }

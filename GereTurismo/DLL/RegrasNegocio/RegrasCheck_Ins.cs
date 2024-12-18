@@ -11,6 +11,8 @@
 using Dados;
 using ObjetosNegocio;
 using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Runtime.InteropServices.WindowsRuntime;
 
 namespace RegrasNegocio
@@ -51,13 +53,13 @@ namespace RegrasNegocio
 			return Check_ins.confirmaDados(idReserva, idCliente);
 		}
 
-		public static int criarCheckIn(DateTime data, int idCliente, int idAlojamento, int idRegisto)
+		public static int criarCheckIn(DateTime data, int idCliente, int idAlojamento)
 		{
-			if (data == null || idRegisto <= 0 || idCliente <= 0 || idAlojamento <= 0)
+			if (data == null || idCliente <= 0 || idAlojamento <= 0)
 			{
 				return -1;
 			}
-			return Check_ins.criarCheckIn(data, idCliente, idAlojamento, idRegisto);
+			return Check_ins.criarCheckIn(data, idCliente, idAlojamento);
 		}
 
 		public static int alterarCheckIn(int idCheckIn, DateTime novaData)
@@ -83,9 +85,26 @@ namespace RegrasNegocio
 			return Check_ins.removeTodosCheckIns();
 		}
 
-		public static void mostrarTodosCheckIns()
+		public static List<Check_in> mostrarTodosCheckIns()
 		{
-			Check_ins.mostrarTodosCheckIns();
+			return Check_ins.Check_Ins;
+		}
+		public static bool CarregaCheckInsParaLista(string filePath)
+		{
+			if(filePath == null)
+			{
+				return false;
+			}
+			return Check_ins.CarregaCheckInsParaLista(filePath);
+		}
+
+		public static bool GuardaCheckInParaFicheiro(string filePath)
+		{
+			if(filePath == null)
+			{
+				return false;
+			}
+			return Check_ins.GuardaCheckInParaFicheiro(filePath);
 		}
 		#endregion
 

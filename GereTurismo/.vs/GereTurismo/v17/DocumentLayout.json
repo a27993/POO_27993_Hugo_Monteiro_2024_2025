@@ -1,68 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|c:\\users\\hugo\\desktop\\repositorio\\githugo\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\frontend\\reservacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|solutionrelative:dll\\frontend\\reservacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|c:\\users\\hugo\\desktop\\repositorio\\githugo\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\frontend\\menucliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|solutionrelative:dll\\frontend\\menucliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|c:\\users\\hugo\\desktop\\repositorio\\githugo\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\frontend\\menufuncionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|solutionrelative:dll\\frontend\\menufuncionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReservaCliente.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\ReservaCliente.cs",
-              "RelativeDocumentMoniker": "DLL\\Frontend\\ReservaCliente.cs",
-              "ToolTip": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\ReservaCliente.cs [Design]",
-              "RelativeToolTip": "DLL\\Frontend\\ReservaCliente.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T01:38:31.568Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MenuCliente.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\MenuCliente.cs",
-              "RelativeDocumentMoniker": "DLL\\Frontend\\MenuCliente.cs",
-              "ToolTip": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\MenuCliente.cs [Design]",
-              "RelativeToolTip": "DLL\\Frontend\\MenuCliente.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T01:38:14.208Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MenuFuncionario.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\MenuFuncionario.cs",
-              "RelativeDocumentMoniker": "DLL\\Frontend\\MenuFuncionario.cs",
-              "ToolTip": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\MenuFuncionario.cs [Design]",
-              "RelativeToolTip": "DLL\\Frontend\\MenuFuncionario.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T01:37:57.097Z",
-              "EditorCaption": " [Design]"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

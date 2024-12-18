@@ -20,6 +20,8 @@ namespace Frontend
 			RegrasUtilizadores.CarregaUtilizadoresParaLista(filePath + "Utilizadores.txt");
 			RegrasReservas.CarregaReservasParaLista(filePath + "Reservas.txt");
 			RegrasAlojamentos.CarregaAlojamentosParaLista(filePath + "Alojamentos.txt");
+			//RegrasCheck_Ins.CarregaCheckInsParaLista(filePath + "Check_ins.txt");
+			//RegrasCheck_outs.CarregaCheckOutsParaLista(filePath + "Check_outs.txt");
 			InitializeComponent();
 		}
 
@@ -46,7 +48,9 @@ namespace Frontend
 		private void criarConta_Click(object sender, EventArgs e)
 		{
 			CriarContaCliente criarContaCliente = new CriarContaCliente();
-			criarContaCliente.Show();
+			this.Hide();
+			criarContaCliente.ShowDialog();
+			this.Show();
 		}
 
 		private void login_Click(object sender, EventArgs e)
@@ -70,12 +74,16 @@ namespace Frontend
 				if (tipoLogado == 1)
 				{
 					MenuFuncionario menuFuncionario = new MenuFuncionario();
-					menuFuncionario.Show();
+					this.Hide();
+					menuFuncionario.ShowDialog();
+					this.Show();
 				}
 				else if (tipoLogado == 0)
 				{
 					MenuCliente menuCliente = new MenuCliente();
-					menuCliente.Show();
+					this.Hide();
+					menuCliente.ShowDialog();
+					this.Show();
 				}
 			}
 		}
@@ -91,6 +99,8 @@ namespace Frontend
 			RegrasUtilizadores.GuardaUtilizadoresParaFicheiro(filePath + "Utilizadores.txt");
 			RegrasAlojamentos.GuardaAlojamentosParaFicheiro(filePath + "Alojamentos.txt");
 			RegrasReservas.GuardaReservasParaFicheiro(filePath + "Reservas.txt");
+			//RegrasCheck_Ins.GuardaCheckInParaFicheiro(filePath + "Check_ins.txt");
+			//RegrasCheck_outs.GuardaCheckOutParaFicheiro(filePath + "Check_outs.txt");
 			this.Close();
 		}
 	}

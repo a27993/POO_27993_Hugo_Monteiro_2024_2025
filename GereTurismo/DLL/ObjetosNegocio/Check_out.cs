@@ -22,7 +22,7 @@ namespace ObjetosNegocio
 	public class Check_out : Registo
 	{
 		#region Attributes
-		private bool pagamento;
+		private string pagamento;
 		#endregion
 
 		#region Methods
@@ -34,7 +34,7 @@ namespace ObjetosNegocio
 		/// </summary>
 		public Check_out() : base()
 		{
-			this.pagamento = false;
+			this.pagamento = "";
 		}
 
 		/// <summary>
@@ -46,7 +46,7 @@ namespace ObjetosNegocio
 		/// <param name="idCliente">The ID of the client associated with the check-out.</param>
 		/// <param name="idAlojamento">The ID of the accommodation associated with the check-out.</param>
 		/// <param name="pagamento">The payment status of the check-out (true if paid, false otherwise).</param>
-		public Check_out(DateTime data, int idCliente, int idAlojamento, bool pagamento, int idRegisto) : base(data, idCliente, idAlojamento, idRegisto)
+		public Check_out(DateTime data, int idCliente, int idAlojamento, string pagamento) : base(data, idCliente, idAlojamento)
 		{
 			this.pagamento = pagamento;
 		}
@@ -56,7 +56,7 @@ namespace ObjetosNegocio
 		/// <summary>
 		/// Property for accessing and setting the payment status of the check-out.
 		/// </summary>
-		public bool Pagamento
+		public string Pagamento
 		{
 			get { return this.pagamento; }
 			set { this.pagamento = value; }
@@ -77,19 +77,19 @@ namespace ObjetosNegocio
 		/// <summary>
 		/// Sets the payment status of the check-out based on the provided status and returns the updated status.
 		/// </summary>
-		/// <param name="statusPagamento">The desired payment status (true if paid, false otherwise).</param>
-		/// <returns>Returns true if the payment status is set to paid; false otherwise.</returns>
-		public bool PagamentoEfetuado(bool statusPagamento)
+		/// <param name="statusPagamento">The desired payment status (1 if paid, 0 otherwise).</param>
+		/// <returns>Returns 1 if the payment status is set to paid; 0 otherwise.</returns>
+		public int PagamentoEfetuado(bool statusPagamento)
 		{
 			if(statusPagamento)
 			{
-				pagamento = true;
-				return true;
+				pagamento = "efetuado";
+				return 1;
 			}
 			else
 			{
-				pagamento = false; 
-				return false;
+				pagamento = "Nao efetuado"; 
+				return 0;
 			}
 		}
 		#endregion

@@ -29,6 +29,8 @@ namespace ObjetosNegocio
 		private double precoPorNoite;
 		private int capacidade;
 		private static int totalId = 0;
+
+		public string Display => $"Id:{Id} - Localizacao:{Localizacao} - Preco por noite:{PrecoPorNoite}€ - Capacidade:{Capacidade}";
 		#endregion
 
 		#region Methods

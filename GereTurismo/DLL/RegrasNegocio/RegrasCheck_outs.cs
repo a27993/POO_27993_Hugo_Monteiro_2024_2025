@@ -9,7 +9,10 @@
 
 
 using Dados;
+using ObjetosNegocio;
 using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Runtime.InteropServices.WindowsRuntime;
 
 namespace RegrasNegocio
@@ -41,13 +44,13 @@ namespace RegrasNegocio
 		#endregion
 
 		#region OtherMethods
-		public static int criarCheckOut(DateTime data, int idCliente, int idAlojamento, int idRegisto, bool pagamento)
+		public static int criarCheckOut(DateTime data, int idCliente, int idAlojamento,string pagamento)
 		{
-			if(data == null || idRegisto <= 0 || idCliente <= 0 || idAlojamento <= 0 || pagamento == false)
+			if(data == null || idCliente <= 0 || idAlojamento <= 0 || string.IsNullOrEmpty(pagamento))
 			{
 				return -1;
 			}
-			return Check_outs.criarCheckOut(data,idCliente,idAlojamento,idRegisto,pagamento);
+			return Check_outs.criarCheckOut(data,idCliente,idAlojamento,pagamento);
 		}
 
 		public static int alterarCheckOut(int idCheckOut, DateTime novaData)
@@ -73,9 +76,27 @@ namespace RegrasNegocio
 			return Check_outs.removeTodosCheckOuts();
 		}
 
-		public static void mostrarTodosCheckOuts()
+		public static List<Check_out> mostrarTodosCheckOuts()
 		{
-			Check_outs.mostrarTodosCheckOuts();
+			return Check_outs.Check_Outs;
+		}
+
+		public static bool CarregaCheckOutsParaLista(string filePath)
+		{
+			if(filePath == null)
+			{
+				return false;
+			}
+			return Check_outs.CarregaCheckOutsParaLista(filePath);
+		}
+
+		public static bool GuardaCheckOutParaFicheiro(string filePath)
+		{
+			if(filePath == null)
+			{
+				return false;
+			}
+			return Check_outs.GuardaCheckOutParaFicheiro(filePath);
 		}
 		#endregion
 

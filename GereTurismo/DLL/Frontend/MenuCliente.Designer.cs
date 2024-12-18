@@ -39,7 +39,7 @@
 			this.ConsultaAlojamentosButton.Name = "ConsultaAlojamentosButton";
 			this.ConsultaAlojamentosButton.Size = new System.Drawing.Size(98, 37);
 			this.ConsultaAlojamentosButton.TabIndex = 0;
-			this.ConsultaAlojamentosButton.Text = "Consulta de alojamentos";
+			this.ConsultaAlojamentosButton.Text = "Consulta ";
 			this.ConsultaAlojamentosButton.UseVisualStyleBackColor = true;
 			this.ConsultaAlojamentosButton.Click += new System.EventHandler(this.ConsultaAlojamentosButton_Click);
 			// 

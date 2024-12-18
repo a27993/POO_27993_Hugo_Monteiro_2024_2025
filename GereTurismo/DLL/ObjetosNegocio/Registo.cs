@@ -53,7 +53,7 @@ namespace ObjetosNegocio
 		/// <param name="data">The date of the registration.</param>
 		/// <param name="idAlojamento">The ID of the associated accommodation.</param>
 		/// <param name="idCliente">The ID of the associated client.</param>
-		public Registo(DateTime data, int idAlojamento, int idCliente, int idRegisto)
+		public Registo(DateTime data, int idAlojamento, int idCliente)
 		{
 			this.data = data;
 			this.idAlojamento = idAlojamento;

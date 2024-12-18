@@ -43,7 +43,7 @@ namespace ObjetosNegocio
 		/// <param name="data">The date of the check-in.</param>
 		/// <param name="idAlojamento">The ID of the accommodation associated with the check-in.</param>
 		/// <param name="Cliente">The ID of the client associated with the check-in.</param>
-		public Check_in(DateTime data, int idAlojamento, int idCliente, int idRegisto) : base(data, idAlojamento, idCliente, idRegisto) { }
+		public Check_in(DateTime data, int idAlojamento, int idCliente) : base(data, idAlojamento, idCliente) { }
 		#endregion
 
 		#region Properties

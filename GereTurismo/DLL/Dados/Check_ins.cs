@@ -12,6 +12,7 @@ using ObjetosNegocio;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.IO;
 
 namespace Dados
 {
@@ -69,9 +70,9 @@ namespace Dados
 			else return -2;
 		}
 
-		public static int criarCheckIn(DateTime data, int idCliente, int idAlojamento, int idRegisto)
+		public static int criarCheckIn(DateTime data, int idCliente, int idAlojamento)
 		{
-			Check_in check_in = new Check_in(data, idAlojamento, idCliente, idRegisto);
+			Check_in check_in = new Check_in(data, idAlojamento, idCliente);
 			check_ins.Add(check_in);
 			return 1;
 		}
@@ -114,6 +115,48 @@ namespace Dados
 			{
 				check_in.exibirRegisto();
 			}
+		}
+
+		public static bool CarregaCheckInsParaLista(string filePath)
+		{
+			// Lê todas as linhas do ficheiro
+			string[] linhas = File.ReadAllLines(filePath);
+
+			// Para cada linha no ficheiro, processa o conteúdo
+			foreach (string linha in linhas)
+			{
+				// Divide a linha em partes
+				string[] partes = linha.Split(';');
+
+				// Verifica se há exatamente 4 partes
+				if (partes.Length == 3)
+				{
+					DateTime data = DateTime.Parse(partes[0]);
+					int idAlojamento = int.Parse(partes[1]);
+					int idCliente = int.Parse(partes[2]);
+					
+					// Cria o objeto checkOut e adiciona-o à lista de checkOuts
+					Check_in check_In = new Check_in(data, idAlojamento, idCliente);
+					check_ins.Add(check_In);
+				}
+				else
+				{
+					throw new Exception("Formato da linha inválido.");
+				}
+			}
+			return true;
+		}
+
+		public static bool GuardaCheckInParaFicheiro(string filePath)
+		{
+			using (StreamWriter writer = new StreamWriter(filePath)) //Open the file to write
+			{
+				foreach (Check_in check_In in check_ins)
+				{
+					writer.WriteLine($"{check_In.Data};{check_In.IdAlojamento};{check_In.IdCliente};{check_In.IdRegisto}");
+				}
+			}
+			return true;
 		}
 		#endregion
 

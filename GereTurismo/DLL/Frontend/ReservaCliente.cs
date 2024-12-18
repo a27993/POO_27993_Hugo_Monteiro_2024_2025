@@ -20,12 +20,30 @@ namespace Frontend
 		private void CriarReservaButton_Click(object sender, EventArgs e)
 		{
 			CriarReservaCliente criarReservaCliente = new CriarReservaCliente();
-			criarReservaCliente.Show();
+			this.Hide();
+			criarReservaCliente.ShowDialog();
+			this.Show();
 		}
 
 		private void ExitButton_Click(object sender, EventArgs e)
 		{
 			this.Close();
+		}
+
+		private void ConfirmarCheckIn_Click(object sender, EventArgs e)
+		{
+			ConfirmarDadosCliente confirmarDadosCliente = new ConfirmarDadosCliente();
+			this.Hide();
+			confirmarDadosCliente.ShowDialog();
+			this.Show();
+		}
+
+		private void CheckOutButton_Click(object sender, EventArgs e)
+		{
+			CheckOutCliente checkOutCliente = new CheckOutCliente();
+			this.Hide();
+			checkOutCliente.ShowDialog();
+			this.Show();
 		}
 	}
 }

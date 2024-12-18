@@ -20,24 +20,33 @@ namespace Frontend
 		private void CriarFuncionarioButton_Click(object sender, EventArgs e)
 		{
 			CriarContaFuncionario criarContaFuncionario = new CriarContaFuncionario();
-			criarContaFuncionario.Show();
+			this.Hide();
+			criarContaFuncionario.ShowDialog();
+			this.Show();
 		}
 
 		private void AdicionarAlojamentosButton_Click(object sender, EventArgs e)
 		{
 			CriarAlojamentoFuncionario criarAlojamentoFuncionario = new CriarAlojamentoFuncionario();
-			criarAlojamentoFuncionario.Show();
+			this.Hide();
+			criarAlojamentoFuncionario.ShowDialog();
+			this.Show();
 		}
 
 		private void ReservasButton_Click(object sender, EventArgs e)
 		{
 			ReservasFuncionario reservasFuncionario = new ReservasFuncionario();
-			reservasFuncionario.Show();
+			this.Hide();
+			reservasFuncionario.ShowDialog();
+			this.Show();
 		}
 
 		private void ConsultasButton_Click(object sender, EventArgs e)
 		{
-
+			ConsultasFuncionarios consultasFuncionario = new ConsultasFuncionarios();
+			this.Hide();
+			consultasFuncionario.ShowDialog();
+			this.Show();
 		}
 
 		private void button1_Click(object sender, EventArgs e)

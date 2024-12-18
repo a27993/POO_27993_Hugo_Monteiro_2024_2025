@@ -110,6 +110,12 @@ namespace Dados
 			else return -1;
 		}
 
+		public static List<Reserva> encontrarReservasUtilizador(int idCliente)
+		{
+			List<Reserva> encontrarReservasUtilizador = r.FindAll(x => x.IdCliente == idCliente);
+			return encontrarReservasUtilizador;
+		}
+
 		public static void mostrarTodasReserva()
 		{
 			foreach (var reserva in r)

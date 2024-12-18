@@ -25,13 +25,17 @@ namespace Frontend
 		private void CriarReservaButton_Click(object sender, EventArgs e)
 		{
 			CriarReservaCliente criarReservaCliente = new CriarReservaCliente();
-			criarReservaCliente.Show();
+			this.Hide();
+			criarReservaCliente.ShowDialog();
+			this.Close();
 		}
 
 		private void RemoverReservaButton_Click(object sender, EventArgs e)
 		{
 			RemoverReservasFuncionario removerReservasFuncionario = new RemoverReservasFuncionario();
-			removerReservasFuncionario.Show();
+			this.Hide();
+			removerReservasFuncionario.ShowDialog();
+			this.Show();
 		}
 	}
 }

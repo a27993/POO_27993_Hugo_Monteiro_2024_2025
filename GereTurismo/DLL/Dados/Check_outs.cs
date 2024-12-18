@@ -10,6 +10,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.IO;
 using ObjetosNegocio;
 
 namespace Dados
@@ -50,9 +51,9 @@ namespace Dados
 		#endregion
 
 		#region OtherMethods
-		public static int criarCheckOut(DateTime data, int idCliente, int idAlojamento, int idRegisto, bool pagamento)
+		public static int criarCheckOut(DateTime data, int idCliente, int idAlojamento,string pagamento)
 		{
-			Check_out check_out = new Check_out(data, idAlojamento, idCliente, pagamento, idRegisto);
+			Check_out check_out = new Check_out(data, idAlojamento, idCliente, pagamento);
 			check_outs.Add(check_out);
 			return 1;
 		}
@@ -95,6 +96,49 @@ namespace Dados
 			{
 				check_out.exibirRegisto();
 			}
+		}
+
+		public static bool CarregaCheckOutsParaLista(string filePath)
+		{
+			// Lê todas as linhas do ficheiro
+			string[] linhas = File.ReadAllLines(filePath);
+
+			// Para cada linha no ficheiro, processa o conteúdo
+			foreach (string linha in linhas)
+			{
+				// Divide a linha em partes
+				string[] partes = linha.Split(';');
+
+				// Verifica se há exatamente 5 partes
+				if (partes.Length == 5)
+				{
+					DateTime data = DateTime.Parse(partes[0]);
+					int idCliente = int.Parse(partes[1]);
+					int idAlojamento = int.Parse(partes[2]);
+					string pagamento = partes[3];
+
+					// Cria o objeto checkOut e adiciona-o à lista de checkOuts
+					Check_out check_Out = new Check_out(data, idCliente, idAlojamento, pagamento);
+					check_outs.Add(check_Out);
+				}
+				else
+				{
+					throw new Exception("Formato da linha inválido.");
+				}
+			}
+			return true;
+		}
+
+		public static bool GuardaCheckOutParaFicheiro(string filePath)
+		{
+			using (StreamWriter writer = new StreamWriter(filePath)) //Open the file to write
+			{
+				foreach (Check_out check_Out in check_outs)
+				{
+					writer.WriteLine($"{check_Out.Data};{check_Out.IdCliente};{check_Out.IdAlojamento};{check_Out.Pagamento};{check_Out.IdRegisto}");
+				}
+			}
+			return true;
 		}
 		#endregion
 

@@ -30,6 +30,9 @@ namespace ObjetosNegocio
 		private DateTime dataFim;
 		private int idReserva;
 		private static int totalId = 1;
+
+
+		public string Display => $"ID:{IdReserva} - Utilizador:{IdCliente} - Alojamento:{IdAlojamento} - Data inicio:{DataInicio} - Data fim:{DataFim}";
 		#endregion
 
 		#region Methods

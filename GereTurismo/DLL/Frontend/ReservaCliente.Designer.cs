@@ -50,8 +50,9 @@
 			this.ConfirmarCheckIn.Name = "ConfirmarCheckIn";
 			this.ConfirmarCheckIn.Size = new System.Drawing.Size(85, 36);
 			this.ConfirmarCheckIn.TabIndex = 1;
-			this.ConfirmarCheckIn.Text = "Confirmar Check-in";
+			this.ConfirmarCheckIn.Text = "Confirmar check-in";
 			this.ConfirmarCheckIn.UseVisualStyleBackColor = true;
+			this.ConfirmarCheckIn.Click += new System.EventHandler(this.ConfirmarCheckIn_Click);
 			// 
 			// CheckOutButton
 			// 
@@ -61,6 +62,7 @@
 			this.CheckOutButton.TabIndex = 2;
 			this.CheckOutButton.Text = "Check-out";
 			this.CheckOutButton.UseVisualStyleBackColor = true;
+			this.CheckOutButton.Click += new System.EventHandler(this.CheckOutButton_Click);
 			// 
 			// ExitButton
 			// 

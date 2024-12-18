@@ -55,7 +55,7 @@ namespace RegrasNegocio
 
 		public static int criarFuncionario(string nome, string cc, string email, string telemovel, string nif, string password)
 		{
-			if (nome == null || cc == null || email == null || telemovel == null || nif == null || password == null)
+			if (string.IsNullOrEmpty(nome) || string.IsNullOrEmpty(cc) || string.IsNullOrEmpty(email) || string.IsNullOrEmpty(telemovel) || string.IsNullOrEmpty(nif) || string.IsNullOrEmpty(password))
 			{
 				return -2;
 			}
