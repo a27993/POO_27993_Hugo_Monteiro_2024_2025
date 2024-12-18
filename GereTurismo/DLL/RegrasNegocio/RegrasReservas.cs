@@ -9,7 +9,9 @@
 
 
 using System;
+using System.IO;
 using Dados;
+using ObjetosNegocio;
 
 namespace RegrasNegocio
 {
@@ -84,6 +86,24 @@ namespace RegrasNegocio
 		public static void mostrarTodasReserva()
 		{
 			Reservas.mostrarTodasReserva();
+		}
+
+		public static bool CarregaReservasParaLista(string filePath)
+		{
+			if (!File.Exists(filePath))
+			{
+				return false;
+			}
+			return Reservas.CarregaReservasParaLista(filePath);
+		}
+
+		public static bool GuardaReservasParaFicheiro(string filePath)
+		{
+			if (!File.Exists(filePath))
+			{
+				return false;
+			}
+			return Reservas.GuardaReservasParaFicheiro(filePath);
 		}
 		#endregion
 

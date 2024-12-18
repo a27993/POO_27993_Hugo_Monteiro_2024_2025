@@ -32,6 +32,7 @@
 			this.ReservasButton = new System.Windows.Forms.Button();
 			this.AdicionarAlojamentosButton = new System.Windows.Forms.Button();
 			this.CriarFuncionarioButton = new System.Windows.Forms.Button();
+			this.button1 = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// ConsultasButton
@@ -74,11 +75,22 @@
 			this.CriarFuncionarioButton.UseVisualStyleBackColor = true;
 			this.CriarFuncionarioButton.Click += new System.EventHandler(this.CriarFuncionarioButton_Click);
 			// 
+			// button1
+			// 
+			this.button1.Location = new System.Drawing.Point(372, 426);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(75, 23);
+			this.button1.TabIndex = 5;
+			this.button1.Text = "Exit";
+			this.button1.UseVisualStyleBackColor = true;
+			this.button1.Click += new System.EventHandler(this.button1_Click);
+			// 
 			// MenuFuncionario
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(459, 461);
+			this.Controls.Add(this.button1);
 			this.Controls.Add(this.CriarFuncionarioButton);
 			this.Controls.Add(this.AdicionarAlojamentosButton);
 			this.Controls.Add(this.ReservasButton);
@@ -95,5 +107,6 @@
 		private System.Windows.Forms.Button ReservasButton;
 		private System.Windows.Forms.Button AdicionarAlojamentosButton;
 		private System.Windows.Forms.Button CriarFuncionarioButton;
+		private System.Windows.Forms.Button button1;
 	}
 }

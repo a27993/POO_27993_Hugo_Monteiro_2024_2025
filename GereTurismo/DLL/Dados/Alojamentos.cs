@@ -12,6 +12,7 @@
 using ObjetosNegocio;
 using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace Dados
 {
@@ -114,6 +115,48 @@ namespace Dados
 			{
 				alojamento.mostraAlojamento();
 			}
+		}
+
+		public static bool CarregaAlojamentosParaLista(string filePath)
+		{
+			// Lê todas as linhas do ficheiro
+			string[] linhas = File.ReadAllLines(filePath);
+
+			// Para cada linha no ficheiro, processa o conteúdo
+			foreach (string linha in linhas)
+			{
+				// Divide a linha em partes
+				string[] partes = linha.Split(';');
+
+				// Verifica se há exatamente 4 partes
+				if (partes.Length == 3)
+				{
+					string localizacao = partes[0];
+					double precoPorNoite = double.Parse(partes[1]);
+					int capacidade = int.Parse(partes[2]);
+
+					// Cria o objeto reserva e adiciona-o à lista de reservas
+					Alojamento alojamento = new Alojamento(localizacao, precoPorNoite, capacidade);
+					a.Add(alojamento);
+				}
+				else
+				{
+					throw new Exception("Formato da linha inválido.");
+				}
+			}
+			return true;
+		}
+
+		public static bool GuardaAlojamentosParaFicheiro(string filePath)
+		{
+			using (StreamWriter writer = new StreamWriter(filePath)) //Open the file to write
+			{
+				foreach (Alojamento alojamento in a)
+				{
+					writer.WriteLine($"{alojamento.Localizacao};{alojamento.PrecoPorNoite};{alojamento.Capacidade}");
+				}
+			}
+			return true;
 		}
 		#endregion
 

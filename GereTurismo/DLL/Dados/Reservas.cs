@@ -11,6 +11,9 @@
 using ObjetosNegocio;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
+using System.IO;
+using System.Runtime.InteropServices.ComTypes;
 
 namespace Dados
 {
@@ -113,6 +116,49 @@ namespace Dados
 			{
 				reserva.mostrarReserva();
 			}
+		}
+
+		public static bool CarregaReservasParaLista(string filePath)
+		{
+			// Lê todas as linhas do ficheiro
+			string[] linhas = File.ReadAllLines(filePath);
+
+			// Para cada linha no ficheiro, processa o conteúdo
+			foreach (string linha in linhas)
+			{
+				// Divide a linha em partes
+				string[] partes = linha.Split(';');
+
+				// Verifica se há exatamente 4 partes
+				if (partes.Length == 4)
+				{
+					int idCliente = int.Parse(partes[0]);
+					int idAlojamento = int.Parse(partes[1]);
+					DateTime dataInicio = DateTime.Parse(partes[2]);
+					DateTime dataFim = DateTime.Parse(partes[3]);
+
+					// Cria o objeto reserva e adiciona-o à lista de reservas
+					Reserva reserva = new Reserva(idCliente, idAlojamento, dataInicio, dataFim);
+					r.Add(reserva);
+				}
+				else
+				{
+					throw new Exception("Formato da linha inválido.");
+				}
+			}
+			return true;
+		}
+
+		public static bool GuardaReservasParaFicheiro(string filePath)
+		{
+			using (StreamWriter writer = new StreamWriter(filePath)) //Open the file to write
+			{
+				foreach (Reserva reserva in r)
+				{
+					writer.WriteLine($"{reserva.IdCliente};{reserva.IdAlojamento};{reserva.DataInicio};{reserva.DataFim}");
+				}
+			}
+			return true;
 		}
 		#endregion
 

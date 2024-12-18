@@ -16,8 +16,10 @@ namespace Frontend
 	{
 		public Menu()
 		{
-			string filePath = @"C:\Users\Hugo\Desktop\repositorio\githugo\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\Utilizadores.txt";
-			RegrasUtilizadores.CarregaUtilizadoresParaLista(filePath);
+			string filePath = @"C:\Users\Hugo\Desktop\repositorio\githugo\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\";
+			RegrasUtilizadores.CarregaUtilizadoresParaLista(filePath + "Utilizadores.txt");
+			RegrasReservas.CarregaReservasParaLista(filePath + "Reservas.txt");
+			RegrasAlojamentos.CarregaAlojamentosParaLista(filePath + "Alojamentos.txt");
 			InitializeComponent();
 		}
 
@@ -65,7 +67,6 @@ namespace Frontend
 			else
 			{
 				int tipoLogado = RegrasUtilizadores.ObterTipoLogado();
-				MessageBox.Show(tipoLogado.ToString());
 				if (tipoLogado == 1)
 				{
 					MenuFuncionario menuFuncionario = new MenuFuncionario();
@@ -86,7 +87,10 @@ namespace Frontend
 
 		private void ExitButton_Click(object sender, EventArgs e)
 		{
-			
+			string filePath = @"C:\Users\Hugo\Desktop\repositorio\githugo\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\";
+			RegrasUtilizadores.GuardaUtilizadoresParaFicheiro(filePath + "Utilizadores.txt");
+			RegrasAlojamentos.GuardaAlojamentosParaFicheiro(filePath + "Alojamentos.txt");
+			RegrasReservas.GuardaReservasParaFicheiro(filePath + "Reservas.txt");
 			this.Close();
 		}
 	}

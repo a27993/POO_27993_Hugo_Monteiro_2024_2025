@@ -176,6 +176,18 @@ namespace Dados
 			}
 			return true;
 		}
+
+		public static bool GuardaUtilizadoresParaFicheiro(string filePath)
+		{
+			using (StreamWriter writer = new StreamWriter(filePath)) //Open the file to write
+			{
+				foreach (Utilizador utilizador in u)
+				{
+					writer.WriteLine($"{utilizador.Nome};{utilizador.CC};{utilizador.Nif};{utilizador.Email};{utilizador.Telemovel};{utilizador.Tipo};{utilizador.Password}");
+				}
+			}
+			return true; 
+		}
 		#endregion
 
 		#region Destructor

@@ -30,7 +30,8 @@ namespace Frontend
 
 		private void RemoverReservaButton_Click(object sender, EventArgs e)
 		{
-
+			RemoverReservasFuncionario removerReservasFuncionario = new RemoverReservasFuncionario();
+			removerReservasFuncionario.Show();
 		}
 	}
 }

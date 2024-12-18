@@ -114,6 +114,12 @@
     <Compile Include="RemoverReservasFuncionario.Designer.cs">
       <DependentUpon>RemoverReservasFuncionario.cs</DependentUpon>
     </Compile>
+    <Compile Include="RemoverReservaSingularFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoverReservaSingularFuncionario.Designer.cs">
+      <DependentUpon>RemoverReservaSingularFuncionario.cs</DependentUpon>
+    </Compile>
     <Compile Include="ReservaCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -158,6 +164,9 @@
     </Compile>
     <EmbeddedResource Include="RemoverReservasFuncionario.resx">
       <DependentUpon>RemoverReservasFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoverReservaSingularFuncionario.resx">
+      <DependentUpon>RemoverReservaSingularFuncionario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ReservaCliente.resx">
       <DependentUpon>ReservaCliente.cs</DependentUpon>

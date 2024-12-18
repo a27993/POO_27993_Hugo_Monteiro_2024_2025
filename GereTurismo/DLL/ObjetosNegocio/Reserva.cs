@@ -45,8 +45,8 @@ namespace ObjetosNegocio
 		{
 			this.idCliente = 0;
 			this.idAlojamento = 0;
-			this.dataInicio = new DateTime();
-			this.dataFim = new DateTime();
+			this.dataInicio = new DateTime(1970,01,01);
+			this.dataFim = new DateTime(1970,01,01);
 			this.idReserva = totalId;
 			totalId++;
 		}

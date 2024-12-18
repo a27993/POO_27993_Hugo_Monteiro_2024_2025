@@ -1,4 +1,5 @@
-﻿using RegrasNegocio;
+﻿using ObjetosNegocio;
+using RegrasNegocio;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;

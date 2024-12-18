@@ -75,3 +75,4 @@ C:\Users\Hugo\Desktop\repositorio\githugo\POO_27993_Hugo_Monteiro_2024_2025\Gere
 C:\Users\Hugo\Desktop\repositorio\githugo\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Frontend\obj\Debug\Frontend.csproj.Up2Date
 C:\Users\Hugo\Desktop\repositorio\githugo\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Frontend\obj\Debug\Frontend.dll
 C:\Users\Hugo\Desktop\repositorio\githugo\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Frontend\obj\Debug\Frontend.pdb
+C:\Users\Hugo\Desktop\repositorio\githugo\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Frontend\obj\Debug\Frontend.RemoverReservaSingularFuncionario.resources

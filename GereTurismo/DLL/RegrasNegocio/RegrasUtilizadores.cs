@@ -130,12 +130,20 @@ namespace RegrasNegocio
 
 		public static bool CarregaUtilizadoresParaLista(string filePath)
 		{
-			filePath = @"C:\Users\Hugo\Desktop\repositorio\githugo\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\Utilizadores.txt";
 			if (!File.Exists(filePath))
 			{
 				return false;
 			}
 			return Utilizadores.CarregaUtilizadoresParaLista(filePath);
+		}
+
+		public static bool GuardaUtilizadoresParaFicheiro(string filePath)
+		{
+			if (!File.Exists(filePath))
+			{
+				return false;
+			}
+			return Utilizadores.GuardaUtilizadoresParaFicheiro(filePath);
 		}
 		#endregion
 

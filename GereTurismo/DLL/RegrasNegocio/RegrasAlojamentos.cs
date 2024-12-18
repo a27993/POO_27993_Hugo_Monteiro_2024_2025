@@ -10,6 +10,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.IO;
 using Dados;
 using ObjetosNegocio;
 
@@ -72,6 +73,24 @@ namespace RegrasNegocio
 		public static List<Alojamento> mostraTodosAlojamento()
 		{
 			return Alojamentos.A;
+		}
+
+		public static bool CarregaAlojamentosParaLista(string filePath)
+		{
+			if (!File.Exists(filePath))
+			{
+				return false;
+			}
+			return Alojamentos.CarregaAlojamentosParaLista(filePath);
+		}
+
+		public static bool GuardaAlojamentosParaFicheiro(string filePath)
+		{
+			if (!File.Exists(filePath))
+			{
+				return false;
+			}
+			return Alojamentos.GuardaAlojamentosParaFicheiro(filePath);
 		}
 		#endregion
 
