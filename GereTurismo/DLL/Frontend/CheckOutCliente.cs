@@ -27,8 +27,24 @@ namespace Frontend
 			}
 			else
 			{
-				int verificacao = RegrasCheck_outs.criarCheckOut(DateTime.Parse(DataTextBox.Text), verificicaoIdCliente, int.Parse(IdAlojamentoTextBox.Text), PagamentoTextBox.Text);
-
+				int verificacao = RegrasCheck_outs.criarCheckOut(DateTime.Parse(DataTextBox.Text), verificicaoIdCliente, int.Parse(IdAlojamentoTextBox.Text), double.Parse(PagamentoTextBox.Text));
+				if(verificacao == -1)
+				{
+					MessageBox.Show("Dados Invalidos");
+				}
+				else
+				{
+					if(double.Parse(PagamentoTextBox.Text) >= 1.00)
+					{
+						MessageBox.Show("Sucesso");
+						this.Close();
+					}
+					else
+					{
+						MessageBox.Show("Pagamento nao foi realizado");
+						this.Close();
+					}
+				}
 			}
 		}
 	}

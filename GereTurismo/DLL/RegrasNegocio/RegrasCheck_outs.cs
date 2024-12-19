@@ -44,9 +44,9 @@ namespace RegrasNegocio
 		#endregion
 
 		#region OtherMethods
-		public static int criarCheckOut(DateTime data, int idCliente, int idAlojamento,string pagamento)
+		public static int criarCheckOut(DateTime data, int idCliente, int idAlojamento,double pagamento)
 		{
-			if(data == null || idCliente <= 0 || idAlojamento <= 0 || string.IsNullOrEmpty(pagamento))
+			if(data == null || idCliente <= 0 || idAlojamento <= 0 || pagamento <= 0.00)
 			{
 				return -1;
 			}

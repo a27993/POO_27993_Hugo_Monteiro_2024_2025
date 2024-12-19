@@ -51,7 +51,7 @@ namespace Dados
 		#endregion
 
 		#region OtherMethods
-		public static int criarCheckOut(DateTime data, int idCliente, int idAlojamento,string pagamento)
+		public static int criarCheckOut(DateTime data, int idCliente, int idAlojamento,double pagamento)
 		{
 			Check_out check_out = new Check_out(data, idAlojamento, idCliente, pagamento);
 			check_outs.Add(check_out);
@@ -115,7 +115,7 @@ namespace Dados
 					DateTime data = DateTime.Parse(partes[0]);
 					int idCliente = int.Parse(partes[1]);
 					int idAlojamento = int.Parse(partes[2]);
-					string pagamento = partes[3];
+					double pagamento = double.Parse(partes[3]);
 
 					// Cria o objeto checkOut e adiciona-o à lista de checkOuts
 					Check_out check_Out = new Check_out(data, idCliente, idAlojamento, pagamento);

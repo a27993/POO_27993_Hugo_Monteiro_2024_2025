@@ -22,7 +22,7 @@ namespace ObjetosNegocio
 	public class Check_out : Registo
 	{
 		#region Attributes
-		private string pagamento;
+		private double pagamento;
 		#endregion
 
 		#region Methods
@@ -34,7 +34,7 @@ namespace ObjetosNegocio
 		/// </summary>
 		public Check_out() : base()
 		{
-			this.pagamento = "";
+			this.pagamento = -1.00;
 		}
 
 		/// <summary>
@@ -46,7 +46,7 @@ namespace ObjetosNegocio
 		/// <param name="idCliente">The ID of the client associated with the check-out.</param>
 		/// <param name="idAlojamento">The ID of the accommodation associated with the check-out.</param>
 		/// <param name="pagamento">The payment status of the check-out (true if paid, false otherwise).</param>
-		public Check_out(DateTime data, int idCliente, int idAlojamento, string pagamento) : base(data, idCliente, idAlojamento)
+		public Check_out(DateTime data, int idCliente, int idAlojamento, double pagamento) : base(data, idCliente, idAlojamento)
 		{
 			this.pagamento = pagamento;
 		}
@@ -56,7 +56,7 @@ namespace ObjetosNegocio
 		/// <summary>
 		/// Property for accessing and setting the payment status of the check-out.
 		/// </summary>
-		public string Pagamento
+		public double Pagamento
 		{
 			get { return this.pagamento; }
 			set { this.pagamento = value; }
@@ -79,17 +79,17 @@ namespace ObjetosNegocio
 		/// </summary>
 		/// <param name="statusPagamento">The desired payment status (1 if paid, 0 otherwise).</param>
 		/// <returns>Returns 1 if the payment status is set to paid; 0 otherwise.</returns>
-		public int PagamentoEfetuado(bool statusPagamento)
+		public bool pamentoEfetuado(bool statusPagamento)
 		{
 			if(statusPagamento)
 			{
-				pagamento = "efetuado";
-				return 1;
+				pagamento = 1;
+				return true;
 			}
 			else
 			{
-				pagamento = "Nao efetuado"; 
-				return 0;
+				pagamento = 0; 
+				return true;
 			}
 		}
 		#endregion
