@@ -17,7 +17,7 @@ using System.IO;
 namespace Dados
 {
 	/// <summary>
-	/// Purpose: 
+	/// Purpose: Accomodations class
 	/// Created by: Hugo
 	/// Created on: 07/12/2024 00:25:12
 	/// </summary>
@@ -34,7 +34,7 @@ namespace Dados
 		#region Constructors
 		/// <summary>
 		/// Static constructor for the Alojamento class.
-		/// Initializes the list of accommodations and sets the initial total ID count to zero.
+		/// Initializes the list of accommodations.
 		/// </summary>
 		static Alojamentos()
 		{
@@ -74,6 +74,16 @@ namespace Dados
 			return 1;
 		}
 
+		/// <summary>
+		/// Method to update the price per night for a specific lodging based on its ID.
+		/// </summary>
+		/// <param name="novoPrecoPorNoite">The new price per night for the lodging.</param>
+		/// <param name="id">The ID of the lodging to update.</param>
+		/// <returns>
+		/// - 1 if the price was successfully updated.
+		/// - 0 if no lodging with the specified ID was found.
+		/// - -1 if an error occurred while updating the lodging price.
+		/// </returns>
 		public static int alterarAlojamento(double novoPrecoPorNoite, int id)
 		{
 			if (a.Exists(x => x.Id == id))
@@ -117,25 +127,33 @@ namespace Dados
 			}
 		}
 
+		/// <summary>
+		/// Loads lodging data from a file and adds it to the list of lodgings.
+		/// </summary>
+		/// <param name="filePath">The path to the file containing lodging data.</param>
+		/// <returns>
+		/// Returns `true` if the data is successfully loaded and all lodgings are added to the list.
+		/// </returns>
+		/// <exception cref="Exception">Thrown when a line in the file has an invalid format.</exception>
 		public static bool CarregaAlojamentosParaLista(string filePath)
 		{
-			// Lê todas as linhas do ficheiro
+			// Reads all lines of the file
 			string[] linhas = File.ReadAllLines(filePath);
 
-			// Para cada linha no ficheiro, processa o conteúdo
+			// Foreach line in the file, processes the content
 			foreach (string linha in linhas)
 			{
-				// Divide a linha em partes
+				// Divide the lines in parts
 				string[] partes = linha.Split(';');
 
-				// Verifica se há exatamente 4 partes
+				// Verify if exists exactly 4 parts
 				if (partes.Length == 3)
 				{
 					string localizacao = partes[0];
 					double precoPorNoite = double.Parse(partes[1]);
 					int capacidade = int.Parse(partes[2]);
 
-					// Cria o objeto reserva e adiciona-o à lista de reservas
+					// Create an accomodation object and add it to the accomodations list
 					Alojamento alojamento = new Alojamento(localizacao, precoPorNoite, capacidade);
 					a.Add(alojamento);
 				}
@@ -147,6 +165,13 @@ namespace Dados
 			return true;
 		}
 
+		/// <summary>
+		/// Saves the lodging data to a file.
+		/// </summary>
+		/// <param name="filePath">The path to the file where the lodging data should be saved.</param>
+		/// <returns>
+		/// Returns `true` if the lodging data was successfully saved to the file.
+		/// </returns>
 		public static bool GuardaAlojamentosParaFicheiro(string filePath)
 		{
 			using (StreamWriter writer = new StreamWriter(filePath)) //Open the file to write

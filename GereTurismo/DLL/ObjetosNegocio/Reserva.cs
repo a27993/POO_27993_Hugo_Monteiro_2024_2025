@@ -137,6 +137,11 @@ namespace ObjetosNegocio
 		#endregion
 
 		#region OtherMethods
+		/// <summary>
+		/// Displays the details of a reservation.
+		/// This method outputs the reservation details, including the client ID, accommodation ID,
+		/// start date, end date, and reservation ID, in a formatted string.
+		/// </summary>
 		public void mostrarReserva()
 		{
 			Console.WriteLine($"{idCliente},{idAlojamento},{dataInicio},{dataFim},{idReserva}");

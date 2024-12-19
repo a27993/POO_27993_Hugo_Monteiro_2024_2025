@@ -18,6 +18,14 @@ namespace Frontend
 			InitializeComponent();
 		}
 
+		/// <summary>
+		/// Handles the Click event for the ConfirmarDadosButton (Confirm Data Button).
+		/// This method performs several checks and confirmations related to the user's reservation data.
+		/// It first checks if the logged-in client is valid, and if so, it confirms the client's reservation.
+		/// Depending on the outcome of the reservation check, an appropriate message is displayed.
+		/// </summary>
+		/// <param name="sender">The source of the event (ConfirmarDadosButton).</param>
+		/// <param name="e">The event data.</param>
 		private void ConfirmarDadosButton_Click(object sender, EventArgs e)
 		{
 			int verificiacaoIdCliente = RegrasUtilizadores.ObterIdLogado();

@@ -20,6 +20,17 @@ namespace Frontend
 			InitializeComponent();
 		}
 
+		/// <summary>
+		/// Handles the Click event for the CriarReservaButton (Create Reservation button).
+		/// This method attempts to create a new reservation by calling the relevant business logic method.
+		/// It checks if the user is logged in, retrieves the input data for accommodation, start date, and end date, and passes them to the business logic layer.
+		/// If the user is not logged in, an error message is displayed.
+		/// If the data is invalid, an error message is shown.
+		/// If the reservation is successfully created, a success message is displayed.
+		/// The form is closed after the operation is complete.
+		/// </summary>
+		/// <param name="sender">The source of the event (CriarReservaButton).</param>
+		/// <param name="e">The event data.</param>
 		private void CriarReservaButton_Click(object sender, EventArgs e)
 		{
 			int verificarIdLogado = RegrasUtilizadores.ObterIdLogado();

@@ -53,6 +53,11 @@ namespace ObjetosNegocio
 		#endregion
 
 		#region Overrides
+		/// <summary>
+		/// Overrides the default method to display the record information.
+		/// This method outputs a formatted string with the details of the record, 
+		/// including the record ID, check-in date, accommodation ID, and client ID.
+		/// </summary>
 		public override void exibirRegisto()
 		{
 			Console.WriteLine($"{IdRegisto},Data Check-in: {Data},{IdAlojamento},{IdCliente}");

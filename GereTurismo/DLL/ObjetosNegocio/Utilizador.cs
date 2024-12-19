@@ -82,20 +82,32 @@ namespace ObjetosNegocio
 		#endregion
 
 		#region Properties
+		/// <summary>
+		/// Static property for accessing the total ID value.
+		/// </summary>
 		public static int TotalId
 		{
 			get { return totalId; }
-		}	
+		}
+		/// <summary>
+		/// Property for accessing and setting the user's password.
+		/// </summary>
 		public string Password
 		{
 			get { return this.password; }
 			set { this.password = value; }
 		}
+		/// <summary>
+		/// Property for accessing and setting the unique identifier of the user.
+		/// </summary>
 		public int Id
 		{
 			get { return this.id; }
 			set { this.id = value; }
 		}
+		/// <summary>
+		/// Property for accessing and setting the type associated with the user.
+		/// </summary>
 		public int Tipo
 		{
 			get { return this.tipo; }
@@ -155,6 +167,16 @@ namespace ObjetosNegocio
 		#endregion
 
 		#region OtherMethods
+		/// <summary>
+		/// Method that returns the user type as a string based on the provided integer value.
+		/// </summary>
+		/// <param name="tipo">An integer representing the user type (1 for 'Funcionario', 0 for 'Cliente, other for 'Nao definido').</param>
+		/// <returns>
+		/// A string representing the user type:
+		/// - "Funcionario" if tipo is 1.
+		/// - "Cliente" if tipo is 0.
+		/// - "Nao definido" if tipo is any other value.
+		/// </returns>
 		public string tipoUtilizador(int tipo)
 		{
 			if (tipo == 1)

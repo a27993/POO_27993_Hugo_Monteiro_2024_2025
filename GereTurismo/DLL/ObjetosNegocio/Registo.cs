@@ -64,12 +64,18 @@ namespace ObjetosNegocio
 		#endregion
 
 		#region Properties
+		/// <summary>
+		/// Property for accessing and setting the unique identifier (ID) of the registration.
+		/// </summary>
 		public int IdRegisto
 		{
 			get { return this.idRegisto; }
 			set { this.idRegisto = value; }
 		}
 
+		/// <summary>
+		/// Static property for accessing the total count of IDs assigned to registrations.
+		/// </summary>
 		public static int TotalId
 		{
 			get { return totalId; }
@@ -110,6 +116,10 @@ namespace ObjetosNegocio
 		#endregion
 
 		#region OtherMethods
+		/// <summary>
+		/// Abstract method to display the details of a record.
+		/// Derived classes must implement this method to define how the record information 
+		/// </summary>
 		public abstract void exibirRegisto();
 		#endregion
 
