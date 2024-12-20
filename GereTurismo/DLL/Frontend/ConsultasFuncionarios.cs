@@ -54,6 +54,8 @@ namespace Frontend
 			comboBox1.Items.Add("Alojamentos");
 			comboBox1.Items.Add("Utilizadores");
 			comboBox1.Items.Add("Reservas");
+			comboBox1.Items.Add("Check-ins");
+			comboBox1.Items.Add("Check-outs");
 			
 			comboBox1.SelectedIndex = 0;
 		}
@@ -78,6 +80,14 @@ namespace Frontend
 					break;
 				case "Reservas":
 					listBox1.DataSource = Consultas.mostrarTodasReservas();
+					listBox1.DisplayMember = "Display";
+					break;
+				case "Check-ins":
+					listBox1.DataSource = Consultas.mostrarTodosCheck_ins();
+					listBox1.DisplayMember = "Display";
+					break;
+				case "Check-outs":
+					listBox1.DataSource = Consultas.mostrarTodosCheck_outs();
 					listBox1.DisplayMember = "Display";
 					break;
 			}

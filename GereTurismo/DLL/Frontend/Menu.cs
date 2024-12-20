@@ -26,8 +26,8 @@ namespace Frontend
 			RegrasUtilizadores.CarregaUtilizadoresParaLista(filePath + "Utilizadores.txt");
 			RegrasReservas.CarregaReservasParaLista(filePath + "Reservas.txt");
 			RegrasAlojamentos.CarregaAlojamentosParaLista(filePath + "Alojamentos.txt");
-			//RegrasCheck_Ins.CarregaCheckInsParaLista(filePath + "Check_ins.txt");
-			//RegrasCheck_outs.CarregaCheckOutsParaLista(filePath + "Check_outs.txt");
+			RegrasCheck_Ins.CarregaCheckInsParaLista(filePath + "Check_ins.txt");
+			RegrasCheck_outs.CarregaCheckOutsParaLista(filePath + "Check_outs.txt");
 			InitializeComponent();
 		}
 
@@ -129,8 +129,8 @@ namespace Frontend
 			RegrasUtilizadores.GuardaUtilizadoresParaFicheiro(filePath + "Utilizadores.txt");
 			RegrasAlojamentos.GuardaAlojamentosParaFicheiro(filePath + "Alojamentos.txt");
 			RegrasReservas.GuardaReservasParaFicheiro(filePath + "Reservas.txt");
-			//RegrasCheck_Ins.GuardaCheckInParaFicheiro(filePath + "Check_ins.txt");
-			//RegrasCheck_outs.GuardaCheckOutParaFicheiro(filePath + "Check_outs.txt");
+			RegrasCheck_Ins.GuardaCheckInParaFicheiro(filePath + "Check_ins.txt");
+			RegrasCheck_outs.GuardaCheckOutParaFicheiro(filePath + "Check_outs.txt");
 			this.Close();
 		}
 	}

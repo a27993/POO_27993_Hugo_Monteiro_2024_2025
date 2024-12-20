@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|c:\\users\\hugo\\desktop\\repositorio\\githugo\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\frontend\\checkoutcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|solutionrelative:dll\\frontend\\checkoutcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|c:\\users\\hugo\\desktop\\repositorio\\githugo\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\frontend\\consultacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|solutionrelative:dll\\frontend\\consultacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\dll\\frontend\\checkoutcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|solutionrelative:dll\\frontend\\checkoutcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{9FAD4BDA-1F43-40C2-BBCA-451E487EFEC1}|DLL\\Dados\\Dados.csproj|c:\\users\\hugo\\desktop\\repositorio\\githugo\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\dados\\check_ins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FAD4BDA-1F43-40C2-BBCA-451E487EFEC1}|DLL\\Dados\\Dados.csproj|solutionrelative:dll\\dados\\check_ins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414DA084-5637-42FB-98F0-33992D9C2405}|DLL\\RegrasNegocio\\RegrasNegocio.csproj|c:\\users\\hugo\\desktop\\repositorio\\githugo\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\regrasnegocio\\regrascheck_ins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{414DA084-5637-42FB-98F0-33992D9C2405}|DLL\\RegrasNegocio\\RegrasNegocio.csproj|solutionrelative:dll\\regrasnegocio\\regrascheck_ins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|c:\\users\\hugo\\desktop\\repositorio\\githugo\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\frontend\\consultacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|solutionrelative:dll\\frontend\\consultacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CheckOutCliente.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\CheckOutCliente.cs",
-              "RelativeDocumentMoniker": "DLL\\Frontend\\CheckOutCliente.cs",
-              "ToolTip": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\CheckOutCliente.cs [Design]",
-              "RelativeToolTip": "DLL\\Frontend\\CheckOutCliente.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "RegrasCheck_Ins.cs",
+              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\RegrasNegocio\\RegrasCheck_Ins.cs",
+              "RelativeDocumentMoniker": "DLL\\RegrasNegocio\\RegrasCheck_Ins.cs",
+              "ToolTip": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\RegrasNegocio\\RegrasCheck_Ins.cs",
+              "RelativeToolTip": "DLL\\RegrasNegocio\\RegrasCheck_Ins.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAuwLIAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T01:26:38.602Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-20T00:55:56.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Check_ins.cs",
+              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Dados\\Check_ins.cs",
+              "RelativeDocumentMoniker": "DLL\\Dados\\Check_ins.cs",
+              "ToolTip": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Dados\\Check_ins.cs",
+              "RelativeToolTip": "DLL\\Dados\\Check_ins.cs",
+              "ViewState": "AgIAANAAAAAAAAAAAAAzwNsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T00:53:16.843Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CheckOutCliente.cs",
-              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\CheckOutCliente.cs",
-              "RelativeDocumentMoniker": "DLL\\Frontend\\CheckOutCliente.cs",
-              "ToolTip": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\CheckOutCliente.cs",
-              "RelativeToolTip": "DLL\\Frontend\\CheckOutCliente.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBYAAABBAAAAAAAAAA==",
+              "Title": "ConsultaCliente.cs",
+              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\ConsultaCliente.cs",
+              "RelativeDocumentMoniker": "DLL\\Frontend\\ConsultaCliente.cs",
+              "ToolTip": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\ConsultaCliente.cs",
+              "RelativeToolTip": "DLL\\Frontend\\ConsultaCliente.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAYwFEAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T01:16:15.629Z",
+              "WhenOpened": "2024-12-20T00:52:14.939Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConsultaCliente.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\ConsultaCliente.cs",
+              "RelativeDocumentMoniker": "DLL\\Frontend\\ConsultaCliente.cs",
+              "ToolTip": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\ConsultaCliente.cs [Design]",
+              "RelativeToolTip": "DLL\\Frontend\\ConsultaCliente.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T00:52:12.884Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

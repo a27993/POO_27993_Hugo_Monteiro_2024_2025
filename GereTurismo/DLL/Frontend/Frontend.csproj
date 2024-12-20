@@ -70,11 +70,11 @@
     <Compile Include="CheckOutCliente.Designer.cs">
       <DependentUpon>CheckOutCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="ConfirmarDadosCliente.cs">
+    <Compile Include="CriarCheck_in.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ConfirmarDadosCliente.Designer.cs">
-      <DependentUpon>ConfirmarDadosCliente.cs</DependentUpon>
+    <Compile Include="CriarCheck_in.Designer.cs">
+      <DependentUpon>CriarCheck_in.cs</DependentUpon>
     </Compile>
     <Compile Include="ConsultaCliente.cs">
       <SubType>Form</SubType>
@@ -159,8 +159,8 @@
     <EmbeddedResource Include="CheckOutCliente.resx">
       <DependentUpon>CheckOutCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ConfirmarDadosCliente.resx">
-      <DependentUpon>ConfirmarDadosCliente.cs</DependentUpon>
+    <EmbeddedResource Include="CriarCheck_in.resx">
+      <DependentUpon>CriarCheck_in.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConsultaCliente.resx">
       <DependentUpon>ConsultaCliente.cs</DependentUpon>

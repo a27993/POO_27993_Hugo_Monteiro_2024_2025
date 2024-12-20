@@ -52,9 +52,9 @@ namespace Frontend
 		/// <param name="e">The event data.</param>
 		private void ConfirmarCheckIn_Click(object sender, EventArgs e)
 		{
-			ConfirmarDadosCliente confirmarDadosCliente = new ConfirmarDadosCliente();
+			CriarCheck_in check_In = new CriarCheck_in();
 			this.Hide();
-			confirmarDadosCliente.ShowDialog();
+			check_In.ShowDialog();
 			this.Show();
 		}
 

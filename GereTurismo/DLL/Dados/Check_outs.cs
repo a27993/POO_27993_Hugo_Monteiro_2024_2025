@@ -35,7 +35,7 @@ namespace Dados
 		/// Static constructor for the check-out class.
 		/// Initializes the list of check-outs.
 		/// </summary>
-		public Check_outs()
+		static Check_outs()
 		{
 			check_outs = new List<Check_out>();	
 		}
@@ -70,7 +70,7 @@ namespace Dados
 		/// </returns>
 		public static int criarCheckOut(DateTime data, int idCliente, int idAlojamento,double pagamento)
 		{
-			Check_out check_out = new Check_out(data, idAlojamento, idCliente, pagamento);
+			Check_out check_out = new Check_out(data, idCliente, idAlojamento, pagamento);
 			check_outs.Add(check_out);
 			return 1;
 		}
@@ -194,7 +194,7 @@ namespace Dados
 			{
 				foreach (Check_out check_Out in check_outs)
 				{
-					writer.WriteLine($"{check_Out.Data};{check_Out.IdCliente};{check_Out.IdAlojamento};{check_Out.Pagamento};{check_Out.IdRegisto}");
+					writer.WriteLine($"{check_Out.Data};{check_Out.IdCliente};{check_Out.IdAlojamento};{check_Out.Pagamento}");
 				}
 			}
 			return true;

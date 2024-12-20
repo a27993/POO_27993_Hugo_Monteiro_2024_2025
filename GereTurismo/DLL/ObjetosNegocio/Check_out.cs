@@ -23,6 +23,8 @@ namespace ObjetosNegocio
 	{
 		#region Attributes
 		private double pagamento;
+
+		public string Display => $"IdRegisto:{IdRegisto} - IdCliente:{IdCliente} - IdAlojamento:{IdAlojamento} - Pagamento:{Pagamento}€";
 		#endregion
 
 		#region Methods

@@ -45,7 +45,7 @@ namespace Frontend
 
 		/// <summary>
 		/// Handles the Load event for the ConsultaCliente form.
-		/// This method populates the ClienteComboBox with two options: "Alojamentos" and "Reservas".
+		/// This method populates the ClienteComboBox with three options: "Alojamentos" , "Reservas" and "Check-ins".
 		/// It also sets the default selected index to 0, meaning "Alojamentos" will be selected by default.
 		/// </summary>
 		/// <param name="sender">The source of the event.</param>
@@ -54,13 +54,14 @@ namespace Frontend
 		{
 			ClienteComboBox.Items.Add("Alojamentos");
 			ClienteComboBox.Items.Add("Reservas");
+			ClienteComboBox.Items.Add("Check-ins");
 
 			ClienteComboBox.SelectedIndex = 0;
 		}
 
 		/// <summary>
 		/// Updates the contents of the list box based on the selected item in the ClienteComboBox.
-		/// It fetches the appropriate data (either "Alojamentos" or "Reservas") and binds it to the list box.
+		/// It fetches the appropriate data and binds it to the list box.
 		/// The list box will display the "Display" property of the data items.
 		/// </summary>
 		/// <param name="listaEscolhida">The selected item from the ClienteComboBox, which determines the data to display in the list box.</param>
@@ -75,6 +76,10 @@ namespace Frontend
 					break;
 				case "Reservas":
 					listBox1.DataSource = RegrasReservas.encontrarReservasUtilizador(idCliente);
+					listBox1.DisplayMember = "Display";
+					break;
+				case "Check-ins":
+					listBox1.DataSource = RegrasCheck_Ins.encontrarCheckInsUtilizador(idCliente);
 					listBox1.DisplayMember = "Display";
 					break;
 			}

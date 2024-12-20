@@ -24,6 +24,7 @@ namespace ObjetosNegocio
 	public class Check_in : Registo
 	{
 		#region Attributes
+		public string Display => $"IdRegisto:{IdRegisto} - IdCliente:{IdCliente} - IdAlojamento:{IdAlojamento} - Data:{Data}";
 		#endregion
 
 		#region Methods

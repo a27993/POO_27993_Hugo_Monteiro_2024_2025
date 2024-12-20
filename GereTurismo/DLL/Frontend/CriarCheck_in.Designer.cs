@@ -1,6 +1,6 @@
 ﻿namespace Frontend
 {
-	partial class ConfirmarDadosCliente
+	partial class CriarCheck_in
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -30,7 +30,9 @@
 		{
 			this.ConfirmarDadosButton = new System.Windows.Forms.Button();
 			this.label1 = new System.Windows.Forms.Label();
-			this.IdReservaTextBox = new System.Windows.Forms.TextBox();
+			this.label = new System.Windows.Forms.Label();
+			this.AlojamentoTextBox = new System.Windows.Forms.TextBox();
+			this.DataTextBox = new System.Windows.Forms.TextBox();
 			this.SuspendLayout();
 			// 
 			// ConfirmarDadosButton
@@ -39,35 +41,53 @@
 			this.ConfirmarDadosButton.Name = "ConfirmarDadosButton";
 			this.ConfirmarDadosButton.Size = new System.Drawing.Size(77, 38);
 			this.ConfirmarDadosButton.TabIndex = 0;
-			this.ConfirmarDadosButton.Text = "Confirmar dados";
+			this.ConfirmarDadosButton.Text = "Criar check-in";
 			this.ConfirmarDadosButton.UseVisualStyleBackColor = true;
 			this.ConfirmarDadosButton.Click += new System.EventHandler(this.ConfirmarDadosButton_Click);
 			// 
 			// label1
 			// 
 			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(12, 115);
+			this.label1.Location = new System.Drawing.Point(12, 104);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(59, 13);
 			this.label1.TabIndex = 1;
-			this.label1.Text = "Id Reserva";
+			this.label1.Text = "Alojamento";
 			// 
-			// IdReservaTextBox
+			// label
 			// 
-			this.IdReservaTextBox.Location = new System.Drawing.Point(93, 112);
-			this.IdReservaTextBox.Name = "IdReservaTextBox";
-			this.IdReservaTextBox.Size = new System.Drawing.Size(100, 20);
-			this.IdReservaTextBox.TabIndex = 2;
+			this.label.AutoSize = true;
+			this.label.Location = new System.Drawing.Point(12, 173);
+			this.label.Name = "label";
+			this.label.Size = new System.Drawing.Size(30, 13);
+			this.label.TabIndex = 2;
+			this.label.Text = "Data";
 			// 
-			// ConfirmarDadosCliente
+			// AlojamentoTextBox
+			// 
+			this.AlojamentoTextBox.Location = new System.Drawing.Point(89, 97);
+			this.AlojamentoTextBox.Name = "AlojamentoTextBox";
+			this.AlojamentoTextBox.Size = new System.Drawing.Size(124, 20);
+			this.AlojamentoTextBox.TabIndex = 3;
+			// 
+			// DataTextBox
+			// 
+			this.DataTextBox.Location = new System.Drawing.Point(89, 173);
+			this.DataTextBox.Name = "DataTextBox";
+			this.DataTextBox.Size = new System.Drawing.Size(124, 20);
+			this.DataTextBox.TabIndex = 4;
+			// 
+			// CriarCheck_in
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(268, 300);
-			this.Controls.Add(this.IdReservaTextBox);
+			this.Controls.Add(this.DataTextBox);
+			this.Controls.Add(this.AlojamentoTextBox);
+			this.Controls.Add(this.label);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.ConfirmarDadosButton);
-			this.Name = "ConfirmarDadosCliente";
+			this.Name = "CriarCheck_in";
 			this.Text = "ConfirmarDadosCliente";
 			this.ResumeLayout(false);
 			this.PerformLayout();
@@ -78,6 +98,8 @@
 
 		private System.Windows.Forms.Button ConfirmarDadosButton;
 		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.TextBox IdReservaTextBox;
+		private System.Windows.Forms.Label label;
+		private System.Windows.Forms.TextBox AlojamentoTextBox;
+		private System.Windows.Forms.TextBox DataTextBox;
 	}
 }

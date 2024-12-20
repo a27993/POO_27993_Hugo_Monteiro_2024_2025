@@ -168,6 +168,24 @@ namespace RegrasNegocio
 			}
 			return Check_ins.GuardaCheckInParaFicheiro(filePath);
 		}
+
+		/// <summary>
+		/// Finds and returns a list of Check-In entries associated with a specific client,
+		/// after validating the provided client ID.
+		/// </summary>
+		/// <param name="idCliente">The ID of the client for whom Check-Ins are to be found.</param>
+		/// <returns>
+		/// A list of <see cref="Check_in"/> objects where the client's ID matches the provided `idCliente`.
+		/// Returns null if the `idCliente` is invalid.
+		/// </returns>
+		public static List<Check_in> encontrarCheckInsUtilizador(int idCliente)
+		{
+			if (idCliente <= 0)
+			{
+				return null;
+			}
+			return Check_ins.encontrarCheckInsUtilizador(idCliente);
+		}
 		#endregion
 
 		#region Destructor

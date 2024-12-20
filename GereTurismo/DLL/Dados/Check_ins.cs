@@ -36,7 +36,7 @@ namespace Dados
 		/// Static constructor for the Check_ins class.
 		/// Initializes the list of check_ins.
 		/// </summary>
-		public Check_ins()
+		static Check_ins()
 		{
 			check_ins = new List<Check_in>();
 		}
@@ -212,10 +212,24 @@ namespace Dados
 			{
 				foreach (Check_in check_In in check_ins)
 				{
-					writer.WriteLine($"{check_In.Data};{check_In.IdAlojamento};{check_In.IdCliente};{check_In.IdRegisto}");
+					writer.WriteLine($"{check_In.Data};{check_In.IdAlojamento};{check_In.IdCliente}");
 				}
 			}
 			return true;
+		}
+
+		// <summary>
+		/// Finds and returns a list of Check-In entries associated with a specific client.
+		/// </summary>
+		/// <param name="idCliente">The ID of the client for whom Check-Ins are to be found.</param>
+		/// <returns>
+		/// A list of <see cref="Check_in"/> objects where the client's ID matches the provided `idCliente`.
+		/// If no matches are found, an empty list is returned.
+		/// </returns>
+		public static List<Check_in> encontrarCheckInsUtilizador(int idCliente)
+		{
+			List<Check_in> encontrarCheckInsUtilizador = check_ins.FindAll(x => x.IdCliente == idCliente);
+			return encontrarCheckInsUtilizador;
 		}
 		#endregion
 
