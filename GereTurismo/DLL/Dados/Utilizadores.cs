@@ -177,7 +177,7 @@ namespace Dados
 			Utilizador utilizador = u.Find(x => x.Id == idLogado);
 			if(utilizador == null)
 			{
-				return -2;
+				return -1;
 			}
 			if (utilizador.Password == passwordAntiga) //se a password = password antiga
 			{

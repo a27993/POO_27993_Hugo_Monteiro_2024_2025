@@ -80,3 +80,4 @@ C:\Users\Hugo\Desktop\repositorio\githugo\POO_27993_Hugo_Monteiro_2024_2025\Gere
 C:\Users\Hugo\Desktop\repositorio\githugo\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Frontend\obj\Debug\Frontend.ConsultasFuncionarios.resources
 C:\Users\Hugo\Desktop\repositorio\githugo\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Frontend\obj\Debug\Frontend.CheckOutCliente.resources
 C:\Users\Hugo\Desktop\repositorio\githugo\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Frontend\obj\Debug\Frontend.CriarCheck_in.resources
+C:\Users\Hugo\Desktop\repositorio\githugo\POO_27993_Hugo_Monteiro_2024_2025\GereTurismo\DLL\Frontend\obj\Debug\Frontend.AlterarPassCliente.resources

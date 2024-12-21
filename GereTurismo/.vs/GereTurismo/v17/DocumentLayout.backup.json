@@ -1,12 +1,87 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|c:\\users\\hugo\\desktop\\repositorio\\githugo\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\frontend\\alterarpasscliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|solutionrelative:dll\\frontend\\alterarpasscliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414DA084-5637-42FB-98F0-33992D9C2405}|DLL\\RegrasNegocio\\RegrasNegocio.csproj|c:\\users\\hugo\\desktop\\repositorio\\githugo\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\regrasnegocio\\regrasutilizadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{414DA084-5637-42FB-98F0-33992D9C2405}|DLL\\RegrasNegocio\\RegrasNegocio.csproj|solutionrelative:dll\\regrasnegocio\\regrasutilizadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FAD4BDA-1F43-40C2-BBCA-451E487EFEC1}|DLL\\Dados\\Dados.csproj|c:\\users\\hugo\\desktop\\repositorio\\githugo\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\dados\\utilizadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FAD4BDA-1F43-40C2-BBCA-451E487EFEC1}|DLL\\Dados\\Dados.csproj|solutionrelative:dll\\dados\\utilizadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|c:\\users\\hugo\\desktop\\repositorio\\githugo\\poo_27993_hugo_monteiro_2024_2025\\gereturismo\\dll\\frontend\\alterarpasscliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{51AE7EC7-4C64-41FB-B3F9-036B9AF4E012}|DLL\\Frontend\\Frontend.csproj|solutionrelative:dll\\frontend\\alterarpasscliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AlterarPassCliente.cs",
+              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\AlterarPassCliente.cs",
+              "RelativeDocumentMoniker": "DLL\\Frontend\\AlterarPassCliente.cs",
+              "ToolTip": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\AlterarPassCliente.cs",
+              "RelativeToolTip": "DLL\\Frontend\\AlterarPassCliente.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwCEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T17:24:37.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AlterarPassCliente.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\AlterarPassCliente.cs",
+              "RelativeDocumentMoniker": "DLL\\Frontend\\AlterarPassCliente.cs",
+              "ToolTip": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Frontend\\AlterarPassCliente.cs [Design]",
+              "RelativeToolTip": "DLL\\Frontend\\AlterarPassCliente.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T17:22:22.723Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegrasUtilizadores.cs",
+              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\RegrasNegocio\\RegrasUtilizadores.cs",
+              "RelativeDocumentMoniker": "DLL\\RegrasNegocio\\RegrasUtilizadores.cs",
+              "ToolTip": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\RegrasNegocio\\RegrasUtilizadores.cs",
+              "RelativeToolTip": "DLL\\RegrasNegocio\\RegrasUtilizadores.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAcwI4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T17:21:44.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Utilizadores.cs",
+              "DocumentMoniker": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Dados\\Utilizadores.cs",
+              "RelativeDocumentMoniker": "DLL\\Dados\\Utilizadores.cs",
+              "ToolTip": "C:\\Users\\Hugo\\Desktop\\repositorio\\githugo\\POO_27993_Hugo_Monteiro_2024_2025\\GereTurismo\\DLL\\Dados\\Utilizadores.cs",
+              "RelativeToolTip": "DLL\\Dados\\Utilizadores.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAwwLMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T17:17:39.188Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

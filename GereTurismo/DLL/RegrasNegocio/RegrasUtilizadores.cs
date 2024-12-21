@@ -138,13 +138,9 @@ namespace RegrasNegocio
 		/// <returns>Returns an integer indicating the result of the password change process.</returns>
 		public static int AlterarPassword(string passwordAntiga, string passwordNova)
 		{
-			if (Utilizadores.IdLogado == null)
+			if (string.IsNullOrEmpty(passwordAntiga) || string.IsNullOrEmpty(passwordNova))
 			{
-				return -1;
-			}
-			if (!string.IsNullOrEmpty(passwordAntiga) && !string.IsNullOrEmpty(passwordNova))
-			{
-				return -3;
+				return -2;
 			}
 			return Utilizadores.AlterarPassword(passwordAntiga, passwordNova);
 		}

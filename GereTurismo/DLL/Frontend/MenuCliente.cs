@@ -64,5 +64,20 @@ namespace Frontend
 				this.Close();
 			}
 		}
+
+		/// <summary>
+		/// Handles the Click event for the "Alterar password" button.
+		/// This method opens the "AlterarPassCliente" form, allowing the user to change the password.
+		/// It hides the current form, shows the "AlterarPassCliente" form, and then shows the original form again when the user closes the "AlterarPassCliente" form.
+		/// </summary>
+		/// <param name="sender">The source of the event (ReservaCliente button).</param>
+		/// <param name="e">The event data.</param>
+		private void AlterarPassButton_Click(object sender, EventArgs e)
+		{
+			AlterarPassCliente alterarPassCliente = new AlterarPassCliente();
+			this.Hide();
+			alterarPassCliente.ShowDialog();
+			this.Show();
+		}
 	}
 }

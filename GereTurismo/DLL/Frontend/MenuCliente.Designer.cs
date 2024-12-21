@@ -31,6 +31,7 @@
 			this.ConsultaAlojamentosButton = new System.Windows.Forms.Button();
 			this.ReservaClienteButton = new System.Windows.Forms.Button();
 			this.LogoutButton = new System.Windows.Forms.Button();
+			this.AlterarPassButton = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// ConsultaAlojamentosButton
@@ -63,11 +64,22 @@
 			this.LogoutButton.UseVisualStyleBackColor = true;
 			this.LogoutButton.Click += new System.EventHandler(this.LogoutButton_Click);
 			// 
+			// AlterarPassButton
+			// 
+			this.AlterarPassButton.Location = new System.Drawing.Point(12, 287);
+			this.AlterarPassButton.Name = "AlterarPassButton";
+			this.AlterarPassButton.Size = new System.Drawing.Size(77, 38);
+			this.AlterarPassButton.TabIndex = 3;
+			this.AlterarPassButton.Text = "Alterar password";
+			this.AlterarPassButton.UseVisualStyleBackColor = true;
+			this.AlterarPassButton.Click += new System.EventHandler(this.AlterarPassButton_Click);
+			// 
 			// MenuCliente
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(324, 332);
+			this.ClientSize = new System.Drawing.Size(316, 337);
+			this.Controls.Add(this.AlterarPassButton);
 			this.Controls.Add(this.LogoutButton);
 			this.Controls.Add(this.ReservaClienteButton);
 			this.Controls.Add(this.ConsultaAlojamentosButton);
@@ -82,5 +94,6 @@
 		private System.Windows.Forms.Button ConsultaAlojamentosButton;
 		private System.Windows.Forms.Button ReservaClienteButton;
 		private System.Windows.Forms.Button LogoutButton;
+		private System.Windows.Forms.Button AlterarPassButton;
 	}
 }
